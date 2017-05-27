@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="50px" viewBox="0 0 42 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.687048257   0 0 0 0 0.687048257   0 0 0 0 0.687048257  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-6" transform="translate(-1249.000000, -1541.000000)" fill="#C49A00">
+            <g id="Group-5-Copy-4" transform="translate(1190.000000, 1436.000000)">
+                <g id="Group-4" filter="url(#filter-1)">
+                    <g id="Page-1">
+                        <g id="Group-17" transform="translate(21.823839, 1.777476)">
+                            <path d="M72.850442,108.81898 L63.4246903,145.264146 L44.9162863,144.345339 C44.9162863,144.345339 43.2025783,107.287527 43.7166907,107.287527 C44.2308031,107.287527 72.850442,108.81898 72.850442,108.81898" id="Fill-3"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

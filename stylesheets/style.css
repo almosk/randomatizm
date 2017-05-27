@@ -19,7 +19,7 @@
 }
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -30,6 +30,10 @@ a {
 body {
   background-color: #FAFAFA;
   height: 4000px;
+  /*background-image: url(../materials/bg.png);*/
+  background-size: contain;
+  background-repeat: no-repeat;
+
 }
 
 .s1 {
@@ -78,9 +82,36 @@ body {
   animation: bounce 2s infinite ease;
 }
 
+.spic1 {
+  width: 100vw;
+  height: 1000px;
+  /*background-color: red;*/
+  position: absolute;
+  top: 100vh;
+}
+
+.picture {
+  width: 200px;
+  height: 300px;
+  /*background-color: yellow;*/
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 15px -5px #636363;
+}
+
+.pic1 {top: 100px; left: 6% ; background-image: url(../materials/preview/1.png);}
+.pic2 {top: 30px;  left: 28%; background-image: url(../materials/preview/2.png);}
+.pic3 {top: 120px; left: 54%; background-image: url(../materials/preview/3.png);}
+.pic4 {top: 170px; left: 76%; background-image: url(../materials/preview/4.png);}
+.pic5 {top: 450px; left: 14%; background-image: url(../materials/preview/5.png);}
+.pic6 {top: 500px; left: 36%; background-image: url(../materials/preview/6.png);}
+.pic7 {top: 600px; left: 60%; background-image: url(../materials/preview/7.png);}
+.pic8 {top: 550px; left: 80%; background-image: url(../materials/preview/8.png);}
+
 .s2 {
   position: absolute;
-  top: calc(100vh + 1000px);
+  top: calc(100vh + 1200px);
   width: 100vw;
   height: 200px;
   display: flex;
