@@ -29,11 +29,16 @@ a {
 
 body {
   /*background-color: #FAFAFA;*/
-  height: 3600px;
+  height: 100vh;
   /*background-image: url(../materials/bg.png);*/
   background-size: contain;
   background-repeat: no-repeat;
+  overflow: hidden;
+}
 
+.long {
+  height: 3600px;
+  overflow: visible;
 }
 
 .s1 {
@@ -161,7 +166,7 @@ body {
 
 .s2 {
   position: absolute;
-  top: calc(100vh + 1200px);
+  top: calc(100vh + 1250px);
   width: 100vw;
   height: 200px;
   display: flex;
