@@ -1,7 +1,7 @@
 $.fn.teletype = function(opts){
     var $this = this,
         defaults = {
-            animDelay: 200,
+            animDelay: 100,
             text: "RANDOMATIZM"
         },
         settings = $.extend(defaults, opts);
