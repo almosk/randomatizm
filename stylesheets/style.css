@@ -28,7 +28,7 @@ a {
 }
 
 body {
-  background-color: #FAFAFA;
+  /*background-color: #FAFAFA;*/
   height: 3600px;
   /*background-image: url(../materials/bg.png);*/
   background-size: contain;
@@ -39,7 +39,7 @@ body {
 .s1 {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh + 200px);
   /*background-color: lightgray;*/
   background-image: url(../materials/s1_bg.png);
   background-size: contain;
@@ -90,7 +90,7 @@ body {
   height: 1000px;
   /*background-color: red;*/
   position: absolute;
-  top: 100vh;
+  top: calc(100vh + 100px);
 }
 
 .spic2 {
@@ -98,7 +98,7 @@ body {
   height: 1000px;
   /*background-color: red;*/
   position: absolute;
-  top: calc(100vh + 1600px);
+  top: calc(100vh + 1800px);
 }
 
 .picture {
@@ -145,6 +145,15 @@ body {
 .pic6 {top: 500px; left: 36%;}
 .pic7 {top: 600px; left: 60%;}
 .pic8 {top: 550px; left: 80%;}
+
+/*.pic1:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
+.pic2:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
+.pic3:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
+.pic4:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
+.pic5:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
+.pic6:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
+.pic7:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
+.pic8:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}*/
 
 .s2 {
   position: absolute;
