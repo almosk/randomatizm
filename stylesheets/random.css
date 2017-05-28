@@ -1,0 +1,105 @@
+.bg {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+
+.rectangle {
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  transition: .5s ease;
+}
+
+.f1 {
+  background-image: url(../materials/s1_bg/1.svg);
+  left: 1258px;
+  top: 564px;
+  width: 118px;
+  height: 119px;
+  z-index: 13;
+}
+
+
+.f2 {
+  background-image: url(../materials/s1_bg/2.svg);
+  left: 1140px;
+  top: 389px;
+  width: 273px;
+  height: 277px;
+  z-index: 12;
+}
+
+.f3 {
+  background-image: url(../materials/s1_bg/3.svg);
+  left: 916px;
+  top: 420px;
+  width: 287px;
+  height: 352px;
+  z-index: 11;
+}
+
+.f4 {
+  background-image: url(../materials/s1_bg/4.svg);
+  left: 667px;
+  top: 532px;
+  width: 227px;
+  height: 348px;
+  z-index: 10;
+}
+
+.f5 {
+  background-image: url(../materials/s1_bg/5.svg);
+  left: 100px;
+  top: 539px;
+  width: 330px;
+  height: 339px;
+  z-index: 9;
+}
+
+.f6 {
+  background-image: url(../materials/s1_bg/6.svg);
+  left: -71px;
+  top: 147px;
+  width: 425px;
+  height: 367px;
+  z-index: 8;
+}
+
+.f7 {
+  background-image: url(../materials/s1_bg/7.svg);
+  left: 77px;
+  top: -202px;
+  width: 1173px;
+  height: 1096px;
+  z-index: 7;
+}
+
+.f8 {
+  background-image: url(../materials/s1_bg/8.svg);
+  left: 1118px;
+  top: 196px;
+  width: 408px;
+  height: 290px;
+  z-index: 6;
+}
+
+.f9 {
+  background-image: url(../materials/s1_bg/9.svg);
+  left: 157px;
+  top: -30px;
+  width: 762px;
+  height: 825px;
+  z-index: 5;
+}
+
+.f10 {
+  background-image: url(../materials/s1_bg/10.svg);
+  left: 576px;
+  top: 222px;
+  width: 644px;
+  height: 632px;
+  z-index: 4;
+}

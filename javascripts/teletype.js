@@ -1,7 +1,7 @@
 $.fn.teletype = function(opts){
     var $this = this,
         defaults = {
-            animDelay: 50
+            animDelay: 200
         },
         settings = $.extend(defaults, opts);
 

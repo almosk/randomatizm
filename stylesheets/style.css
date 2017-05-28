@@ -41,19 +41,21 @@ body {
   width: 100vw;
   height: calc(100vh + 200px);
   /*background-color: lightgray;*/
-  background-image: url(../materials/s1_bg.png);
+  /*background-image: url(../materials/s1_bg.png);*/
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .s1>.text {
-  margin: auto;
-  margin-top: calc(50vh - 85px);
+  position: absolute;
+  margin-left: calc(50vw - 450px);
+  margin-top: calc(50vh - 120px);
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 900px;
   height: 170px;
+  z-index: 20
 }
 
 .arrow {
@@ -65,7 +67,7 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 9;
+  z-index: 21;
   display: none;
 }
 
@@ -98,21 +100,22 @@ body {
   height: 1000px;
   /*background-color: red;*/
   position: absolute;
-  top: calc(100vh + 1800px);
+  top: calc(100vh + 1600px);
 }
 
 .picture {
-  width: 200px;
+  width: 250px;
   height: auto;
   padding-bottom: 30px;
   /*background-color: yellow;*/
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .preview {
-  width: 200px;
+  width: 250px;
   height: auto;
   box-shadow: 0 5px 15px -5px #636363;
 }
@@ -120,6 +123,7 @@ body {
 .picture:hover {
   transform: scale(2);
   z-index: 99;
+  transition: .2s ease;
 }
 
 .title {
@@ -141,9 +145,9 @@ body {
 .pic2 {top: 30px;  left: 28%;}
 .pic3 {top: 120px; left: 54%;}
 .pic4 {top: 170px; left: 76%;}
-.pic5 {top: 500px; left: 14%;}
+.pic5 {top: 530px; left: 14%;}
 .pic6 {top: 500px; left: 36%;}
-.pic7 {top: 600px; left: 60%;}
+.pic7 {top: 600px; left: 58%;}
 .pic8 {top: 550px; left: 80%;}
 
 /*.pic1:hover .all {width: 100vw; height: 100vh; position: fixed; display: flex;}
