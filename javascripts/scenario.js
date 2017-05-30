@@ -1,13 +1,24 @@
 $(function(){
-  $('.topText').fadeIn(10);
-  $('.topText').teletype({});
+  function teletype() {
+    $('.topText').teletype({})
+  }
 
-  $('.bottomText').delay(2000);
+  function comment() {
+    $('div.comments').toggleClass('none');
+  }
+
+  $('.topText').fadeIn(10);
+
+  $('.bg').fadeIn(1000);
+
+
+  setTimeout(teletype, 2500)
+
+  $('.bottomText').delay(3500);
   $('.bottomText').fadeIn(1000);
 
-  $('.arrow').delay(3500);
-  $('.arrow').fadeIn(500);
+  setTimeout(comment, 3500)
 
-  $('body').delay(3500);
-  $('body').toggleClass('long');
+  $('.arrow').delay(3700);
+  $('.arrow').fadeIn(500);
 });

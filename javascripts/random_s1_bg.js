@@ -18,7 +18,6 @@ $(function() {
     rectangle('.rectangle.f10');
   }
 
-	var button = document.querySelector('.newWallpaper');
 	document.onkeyup = (e) => {
 		if(e.keyCode == 16){
 			rectangles();
@@ -46,8 +45,13 @@ $(function() {
     originals();
 	});
 
-	rectangles();
-  setTimeout(rectangles, 900);
-  setTimeout(originals, 1800);
+	document.onkeydown = (q) => {
+		if(q.keyCode == 27){
+			originals();
+		}
+	}
 
+	rectangles();
+  setTimeout(rectangles, 1000);
+  setTimeout(originals, 2000);
 });
