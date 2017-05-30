@@ -19,7 +19,7 @@ $(function() {
   }
 
 	document.onkeyup = (e) => {
-		if(e.keyCode == 16){
+		if(e.keyCode == 82){
 			rectangles();
 		}
 	}

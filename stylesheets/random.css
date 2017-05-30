@@ -1,9 +1,10 @@
 .bg {
-  top: 0;
+  top: -45px;
   width: 100%;
   height: 100%;
   position: relative;
   display: block;
+  transform: scaleY(0.9);
 }
 
 .rectangle {
@@ -13,7 +14,7 @@
   transition: .8s ease;
 }
 
-.f1 {
+/*.f1 {
   background-image: url(../materials/s1_bg/1.svg);
   left: 1258px;
   top: 564px;
@@ -101,5 +102,187 @@
   top: 222px;
   width: 644px;
   height: 632px;
+  z-index: 4;
+}*/
+
+/*.f1 {
+  background-image: url(../materials/s1_bg_2/1.svg);
+  left: 1258px;
+  top: 576px;
+  width: 118px;
+  height: 119px;
+  z-index: 13;
+}
+
+
+.f2 {
+  background-image: url(../materials/s1_bg_2/2.svg);
+  left: 1140px;
+  top: 401px;
+  width: 273px;
+  height: 277px;
+  z-index: 12;
+}
+
+.f3 {
+  background-image: url(../materials/s1_bg_2/3.svg);
+  left: 885px;
+  top: 85px;
+  width: 479px;
+  height: 715px;
+  z-index: 11;
+}
+
+.f4 {
+  background-image: url(../materials/s1_bg_2/4.svg);
+  left: 648px;
+  top: 577px;
+  width: 218px;
+  height: 303px;
+  z-index: 10;
+}
+
+.f5 {
+  background-image: url(../materials/s1_bg_2/5.svg);
+  left: 111px;
+  top: 462px;
+  width: 433px;
+  height: 422px;
+  z-index: 9;
+}
+
+.f6 {
+  background-image: url(../materials/s1_bg_2/6.svg);
+  left: 30px;
+  top: 37px;
+  width: 360px;
+  height: 345px;
+  z-index: 8;
+}
+
+.f7 {
+  background-image: url(../materials/s1_bg_2/7.svg);
+  left: 104px;
+  top: 87px;
+  width: 790px;
+  height: 739px;
+  z-index: 7;
+}
+
+.f8 {
+  background-image: url(../materials/s1_bg_2/8.svg);
+  left: 941px;
+  top: 83px;
+  width: 408px;
+  height: 290px;
+  z-index: 6;
+}
+
+.f9 {
+  background-image: url(../materials/s1_bg_2/9.svg);
+  left: 354px;
+  top: 13px;
+  width: 497px;
+  height: 538px;
+  z-index: 5;
+}
+
+.f10 {
+  background-image: url(../materials/s1_bg_2/10.svg);
+  left: 791px;
+  top: 462px;
+  width: 504px;
+  height: 409px;
+  z-index: 4;
+}*/
+
+.f1 {
+  background-image: url(../materials/s1_bg_2/1.svg);
+  left: 1289px;
+  top: 610px;
+  width: 55px;
+  height: 55px;
+  z-index: 13;
+}
+
+
+.f2 {
+  background-image: url(../materials/s1_bg_2/2.svg);
+  left: 1220px;
+  top: 508px;
+  width: 140px;
+  height: 142px;
+  z-index: 12;
+}
+
+.f3 {
+  background-image: url(../materials/s1_bg_3/3.svg);
+  left: 1035px;
+  top: 97px;
+  width: 267px;
+  height: 465px;
+  z-index: 11;
+}
+
+.f4 {
+  background-image: url(../materials/s1_bg_3/4.svg);
+  left: 679px;
+  top: 622px;
+  width: 155px;
+  height: 216px;
+  z-index: 10;
+}
+
+.f5 {
+  background-image: url(../materials/s1_bg_3/5.svg);
+  left: 156px;
+  top: 538px;
+  width: 343px;
+  height: 334px;
+  z-index: 9;
+}
+
+.f6 {
+  background-image: url(../materials/s1_bg_3/6.svg);
+  left: 57px;
+  top: 78px;
+  width: 271px;
+  height: 260px;
+  z-index: 8;
+}
+
+.f7 {
+  background-image: url(../materials/s1_bg_3/7.svg);
+  left: 192px;
+  top: 174px;
+  width: 611px;
+  height: 604px;
+  z-index: 7;
+}
+
+.f8 {
+  background-image: url(../materials/s1_bg_3/8.svg);
+  left: 1034px;
+  top: 145px;
+  width: 267px;
+  height: 177px;
+  z-index: 6;
+}
+
+.f9 {
+  background-image: url(../materials/s1_bg_3/9.svg);
+  left: 445px;
+  top: 24px;
+  width: 340px;
+  height: 337px;
+  z-index: 5;
+}
+
+.f10 {
+  background-image: url(../materials/s1_bg_3/10.svg);
+  left: 879px;
+  top: 563px;
+  width: 382px;
+  height: 310px;
   z-index: 4;
 }
