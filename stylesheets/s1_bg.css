@@ -1,0 +1,106 @@
+.bg {
+  top: -45px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+  transform: scaleY(0.9);
+}
+
+.rectangle {
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  transition: .8s ease;
+}
+
+.f1 {
+  background-image: url(../materials/s1_bg_2/1.svg);
+  left: 1289px;
+  top: 610px;
+  width: 55px;
+  height: 55px;
+  z-index: 13;
+}
+
+
+.f2 {
+  background-image: url(../materials/s1_bg_2/2.svg);
+  left: 1220px;
+  top: 508px;
+  width: 140px;
+  height: 142px;
+  z-index: 12;
+}
+
+.f3 {
+  background-image: url(../materials/s1_bg_3/3.svg);
+  left: 1035px;
+  top: 97px;
+  width: 267px;
+  height: 465px;
+  z-index: 11;
+}
+
+.f4 {
+  background-image: url(../materials/s1_bg_3/4.svg);
+  left: 679px;
+  top: 622px;
+  width: 155px;
+  height: 216px;
+  z-index: 10;
+}
+
+.f5 {
+  background-image: url(../materials/s1_bg_3/5.svg);
+  left: 156px;
+  top: 538px;
+  width: 343px;
+  height: 334px;
+  z-index: 9;
+}
+
+.f6 {
+  background-image: url(../materials/s1_bg_3/6.svg);
+  left: 57px;
+  top: 78px;
+  width: 271px;
+  height: 260px;
+  z-index: 8;
+}
+
+.f7 {
+  background-image: url(../materials/s1_bg_3/7.svg);
+  left: 192px;
+  top: 174px;
+  width: 611px;
+  height: 604px;
+  z-index: 7;
+}
+
+.f8 {
+  background-image: url(../materials/s1_bg_3/8.svg);
+  left: 1034px;
+  top: 145px;
+  width: 267px;
+  height: 177px;
+  z-index: 6;
+}
+
+.f9 {
+  background-image: url(../materials/s1_bg_3/9.svg);
+  left: 445px;
+  top: 24px;
+  width: 340px;
+  height: 337px;
+  z-index: 5;
+}
+
+.f10 {
+  background-image: url(../materials/s1_bg_3/10.svg);
+  left: 879px;
+  top: 563px;
+  width: 382px;
+  height: 310px;
+  z-index: 4;
+}
