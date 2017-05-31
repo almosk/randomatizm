@@ -45,7 +45,6 @@ body {
   z-index: 99;
 }
 
-
 .figcaption>h1 {
   font-family: T-StarPro-Bold;
   font-size: 36px;
@@ -55,8 +54,8 @@ body {
 
 .figcaption>h2 {
   font-family: T-StarPro;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 12px;
+  line-height: 14px;
   margin-top: 10px;
 }
 
@@ -88,6 +87,7 @@ body {
   font-size: 20px;
   text-align: center;
   font-family: T-StarPro-Bold;
+  letter-spacing: .5px;
 
   border-style: solid;
   border-width: 1px;
@@ -103,11 +103,15 @@ body {
   width: 120px;
   height: 40px;
   line-height: 40px;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   cursor: pointer;
   font-family: T-StarPro-Bold;
-  margin-left: 20px;
+  margin-left: 15px;
+
+  /*border-style: solid;
+  border-width: 1px;
+  border-color: black;*/
 }
 
 .tooriginal:active {
@@ -121,7 +125,8 @@ body {
 
 .navigation {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 200px);
+  top: 100px;
   position: absolute;
 
   display: flex;
@@ -161,11 +166,8 @@ img {
 }
 
 .bottombottons {
-  /*width: 100vw;*/
   height: 30px;
-  /*position: absolute;*/
-  bottom: 20px;
-  /*display: block;*/
+  margin-top: 2px;
 
   display: flex;
   flex-direction: row;
@@ -187,6 +189,7 @@ img {
 .save:active {
   text-decoration: underline;
 }
+
 /*
 @media (min-width: 2000px) {
   .main {

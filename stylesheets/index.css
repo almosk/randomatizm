@@ -52,7 +52,7 @@ body {
 }
 
 .bounce {
-  animation: bounce 2s 1 ease;
+  animation: bounce 2s 2 ease;
 }
 
 .comments {
@@ -64,7 +64,7 @@ body {
   justify-content: space-between;
   flex-direction: row;
   z-index: 99999;
-  padding: 0 50px;
+  padding: 0 30px;
   transition: .8s ease;
 }
 

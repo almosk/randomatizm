@@ -5,12 +5,18 @@ $(function(){
 
   function comment() {
     $('div.comments').toggleClass('none');
+    $('section.menubar').toggleClass('none');
+  }
+
+  function bgOpacity() {
+    $('div.bg').addClass('bgOpacity');
   }
 
   $('.topText').fadeIn(10);
 
   $('.bg').fadeIn(1000);
 
+  setTimeout(bgOpacity, 2400)
 
   setTimeout(teletype, 2500)
 

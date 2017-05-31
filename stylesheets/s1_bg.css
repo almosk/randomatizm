@@ -5,13 +5,19 @@
   position: relative;
   display: none;
   transform: scaleY(0.9);
+  transition: .8s ease;
+
 }
 
 .rectangle {
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  transition: .8s ease;
+  transition: 1s ease;
+}
+
+.bgOpacity {
+  opacity: .4;
 }
 
 .f1 {
