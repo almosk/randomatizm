@@ -49,7 +49,10 @@ a {
   line-height: 28px;
   letter-spacing: .5px;
   margin-right: 15px;
-  cursor: pointer;
+}
+
+.about {
+  cursor: default;
 }
 
 .logo:hover, .about:hover {

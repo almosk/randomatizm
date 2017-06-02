@@ -19,6 +19,8 @@ $(function() {
 		rectangle('.rectangle.f11');
 		rectangle('.rectangle.f12');
 		rectangle('.rectangle.f13');
+		rectangle('.rectangle.f14');
+		rectangle('.rectangle.f15');
 	}
 
 	$('.figures, .random').click(function() {
@@ -51,6 +53,8 @@ $(function() {
 		original('.rectangle.f11');
 		original('.rectangle.f12');
 		original('.rectangle.f13');
+		original('.rectangle.f14');
+		original('.rectangle.f15');
 	}
 
 	$('.tooriginal').click(function() {

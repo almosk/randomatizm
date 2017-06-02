@@ -1,0 +1,42 @@
+.bg {
+  width: 546px;
+  height: 600px;
+  min-width: 480px;
+  min-height: 700px;
+}
+
+.figures {
+  width: 476px;
+  height: 600px;
+  margin: 50px auto;
+  background-image: url(../materials/artwork3/0.svg);
+  box-shadow: 0 5px 15px -5px #636363;
+}
+
+.f1 {
+  background-image: url(../materials/artwork3/1.svg);
+  left: 30px;
+  top: 24px;
+  width:441px;
+  height: 529px;
+  z-index: 3;
+}
+
+
+.f2 {
+  background-image: url(../materials/artwork3/2.svg);
+  left: 63px;
+  top: 54px;
+  width: 284px;
+  height: 495px;
+  z-index: 2;
+}
+
+.f3 {
+  background-image: url(../materials/artwork3/3.svg);
+  left: 145px;
+  top: 13px;
+  width: 234px;
+  height: 559px;
+  z-index: 1;
+}

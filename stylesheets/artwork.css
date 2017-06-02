@@ -40,7 +40,7 @@ body {
 
 .figcaption {
   width: 330px;
-  height: 560px;
+  height: auto;
   display: block;
   z-index: 99;
 }

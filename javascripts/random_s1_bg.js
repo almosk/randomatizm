@@ -24,6 +24,11 @@ $(function() {
 		}
 	}
 
+	$('.bg').click(function() {
+		$('div.tooriginal').removeClass('original')
+		rectangles();
+	});
+
 	var original = (element) => {
 		$('.rectangle').attr('style', '')
 	}

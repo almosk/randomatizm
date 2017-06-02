@@ -1,0 +1,54 @@
+.bg {
+  width: 465px;
+  height: 594px;
+  min-width: 465px;
+  min-height: 594px;
+  /*background-image: url(../materials/popova-1/bg.png);*/
+  margin-right: 60px;
+}
+
+.figures {
+  width: 455px;
+  height: 587px;
+  margin-left: 6px;
+  margin-top: 3px;
+  background-image: url(../materials/artwork9/0.svg);
+  box-shadow: 0 5px 15px -5px #636363;
+}
+
+.f1 {
+  background-image: url(../materials/artwork9/1.svg);
+  left: 269px;
+  top: 131px;
+  width: 128px;
+  height: 317px;
+  z-index: 6;
+}
+
+
+.f2 {
+  background-image: url(../materials/artwork9/2.svg);
+  left: 143px;
+  top: 90px;
+  width: 249px;
+  height: 466px;
+  z-index: 5;
+}
+
+.f3 {
+  background-image: url(../materials/artwork9/3.svg);
+  left: 64px;
+  top: 56px;
+  width: 192px;
+  height: 473px;
+  z-index: 4;
+}
+
+.f4 {
+  background-image: url(../materials/artwork9/4.svg);
+  left: 26px;
+  top: 178px;
+  width: 82px;
+  height: 187px;
+  z-index: 3;
+}
