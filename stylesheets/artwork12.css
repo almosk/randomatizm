@@ -1,0 +1,32 @@
+.figures {
+  width: 433px;
+  background-image: url(../materials/artwork12/0.svg);
+}
+
+.f1 {
+  background-image: url(../materials/artwork12/1.svg);
+  left: 184px;
+  top: 83px;
+  width: 213px;
+  height: 213px;
+  z-index: 5;
+}
+
+
+.f2 {
+  background-image: url(../materials/artwork12/2.svg);
+  left: 88px;
+  top: 171px;
+  width: 318px;
+  height: 300px;
+  z-index: 4;
+}
+
+.f3 {
+  background-image: url(../materials/artwork12/3.svg);
+  left: 50px;
+  top: 379px;
+  width: 199px;
+  height: 186px;
+  z-index: 3;
+}

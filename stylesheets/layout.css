@@ -28,9 +28,6 @@ a {
   text-decoration: none;
 }
 
-.none {
-  opacity: 0;
-}
 
 .menubar {
   width: 100vw;
@@ -48,28 +45,22 @@ a {
   font-family:  T-StarPro;
   line-height: 28px;
   letter-spacing: .5px;
-  margin-right: 15px;
+  /*margin-right: 15px;*/
 }
 
-.about {
-  cursor: default;
-}
-
-.logo:hover, .about:hover {
+.logo_btn:hover, .about_btn:hover {
   text-decoration: underline;
 }
 
-.about:hover:after {
-  position: absolute;
+.about {
+  position: fixed;
   display: block;
-  content: 'Проект создан в рамках хакатона студентом 1 курса направления «Дизайн и программирование» Школы Дизайна НИУ ВШЭ Московским Александром. Куратор Захар День.';
-  font-size: 16px;
-  line-height: 22px;
-  font-family:  T-StarPro-Bold;
 
-  width: 230px;
-  height: 150px;
-  margin-left: -220px;
+
+  width: 290px;
+  height: 180px;
+  right: 30px;
+  top: 50px;
   padding: 18px 20px;
   transition: .6s ease;
 
@@ -78,4 +69,22 @@ a {
   border-width: 1px;
   border-color: black;
   background-color: white;
+  z-index: 999999999
+}
+
+.about>p {
+  font-size: 16px;
+  line-height: 22px;
+  font-family:  T-StarPro-Bold;
+  margin-top: 0;
+}
+
+.about>p>a {
+  text-decoration: underline;
+}
+
+.none {
+  opacity: 0;
+  z-index: 1;
+  display: none;
 }

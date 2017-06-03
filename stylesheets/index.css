@@ -118,6 +118,7 @@ body {
   font-size: 15px;
   line-height: 16px;
   font-family:  T-StarPro-Bold;
+  text-indent: -8px;
 }
 
 .teaser {
@@ -171,7 +172,7 @@ body {
 }
 
 .redslash {
-  width: 20px;
+  width: 25px;
   height: 500px;
   margin-top: -120px;
   margin-right: 50px;
@@ -180,7 +181,7 @@ body {
   transition: 1s ease;
 }
 
-.redslash::after {
+/*.redslash::after {
   display: block;
   width: 500px;
   height: 500px;
@@ -193,7 +194,7 @@ body {
 }
 .redslash:hover {
   transform: rotate(360deg);
-}
+}*/
 
 h1 {
   font-size: 180px;

@@ -21,6 +21,14 @@ $(function() {
 		rectangle('.rectangle.f13');
 		rectangle('.rectangle.f14');
 		rectangle('.rectangle.f15');
+		rectangle('.rectangle.f16');
+		rectangle('.rectangle.f17');
+		rectangle('.rectangle.f18');
+		rectangle('.rectangle.f19');
+		rectangle('.rectangle.f20');
+		rectangle('.rectangle.f21');
+		rectangle('.rectangle.f22');
+
 	}
 
 	$('.figures, .random').click(function() {
@@ -55,6 +63,13 @@ $(function() {
 		original('.rectangle.f13');
 		original('.rectangle.f14');
 		original('.rectangle.f15');
+		original('.rectangle.f16');
+		original('.rectangle.f17');
+		original('.rectangle.f18');
+		original('.rectangle.f19');
+		original('.rectangle.f20');
+		original('.rectangle.f21');
+		original('.rectangle.f22');
 	}
 
 	$('.tooriginal').click(function() {

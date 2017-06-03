@@ -1,59 +1,60 @@
 .figures {
-  width: 518px;
+  width: 600px;
+  height: 600px;
   background-image: url(../materials/artwork6/0.svg);
 }
 
 .f1 {
   background-image: url(../materials/artwork6/1.svg);
-  left: 111px;
-  top: 176px;
-  width: 78px;
-  height: 75px;
+  left: 139px;
+  top: 222px;
+  width: 98px;
+  height: 94px;
   z-index: 15;
 }
 
 
 .f2 {
   background-image: url(../materials/artwork6/2.svg);
-  left: 73px;
-  top: 102px;
-  width: 149px;
-  height: 133px;
+  left: 92px;
+  top: 129px;
+  width: 187px;
+  height: 168px;
   z-index: 14;
 }
 
 .f3 {
   background-image: url(../materials/artwork6/3.svg);
-  left: 257px;
-  top: 180px;
-  width: 115px;
-  height: 101px;
+  left: 323px;
+  top: 227px;
+  width: 144px;
+  height: 127px;
   z-index: 13;
 }
 
 .f4 {
   background-image: url(../materials/artwork6/4.svg);
-  left: 119px;
-  top: 168px;
-  width: 182px;
-  height: 146px;
+  left: 149px;
+  top: 212px;
+  width: 229px;
+  height: 184px;
   z-index: 12;
 }
 
 .f5 {
   background-image: url(../materials/artwork6/5.svg);
-  left: 108px;
-  top: 67px;
-  width: 85px;
-  height: 84px;
+  left: 136px;
+  top: 84px;
+  width: 107px;
+  height: 106px;
   z-index: 11;
 }
 
 .f6 {
   background-image: url(../materials/artwork6/6.svg);
-  left: 225px;
-  top: 303px;
-  width: 142px;
-  height: 140px;
+  left: 284px;
+  top: 384px;
+  width: 182px;
+  height: 180px;
   z-index: 10;
 }
