@@ -24,7 +24,7 @@ $(function() {
 		}
 	}
 
-	$('.bg').click(function() {
+	$('.s1_bg').click(function() {
 		$('div.tooriginal').removeClass('original')
 		rectangles();
 	});

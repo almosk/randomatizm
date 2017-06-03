@@ -9,12 +9,12 @@ $(function(){
   }
 
   function bgOpacity() {
-    $('div.bg').addClass('bgOpacity');
+    $('div.s1_bg').addClass('bgOpacity');
   }
 
   $('.topText').fadeIn(10);
 
-  $('.bg').fadeIn(1000);
+  $('.s1_bg').fadeIn(1000);
 
   setTimeout(bgOpacity, 2400)
 
