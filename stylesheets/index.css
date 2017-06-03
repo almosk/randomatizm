@@ -52,13 +52,13 @@ body {
 }
 
 .text {
-  position: absolute;
+  /*position: absolute;*/
   /*margin-left: calc(50vw - 450px);
   margin-top: calc(50vh - 120px);*/
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 900px;
+  /*width: 900px;*/
   /*height: 170px;*/
   z-index: 20;
   cursor: default;
@@ -283,5 +283,9 @@ p {
     font-size: 18px;
     line-height: 22px;
     margin-top: 5px;
+  }
+
+  .picture:hover {
+    transform: scale(1);
   }
 }

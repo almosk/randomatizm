@@ -19,6 +19,11 @@ body {
   align-items: center;
 }
 
+.bg {
+  display: block;
+  position: relative;
+}
+
 .figures {
   position: relative;
   overflow: hidden;
@@ -26,6 +31,7 @@ body {
   margin-right: 50px;
   box-shadow: 0 5px 15px -5px #636363;
   z-index: 999999;
+  display: block;
 }
 
 .rectangle {
@@ -39,6 +45,7 @@ body {
   height: auto;
   display: block;
   z-index: 99;
+  position: relative;
 }
 
 .figcaption>h1 {
@@ -204,6 +211,7 @@ img {
   .main {
     flex-direction: column;
     justify-content: flex-start;
+    height: auto;
   }
 
   .bg {
