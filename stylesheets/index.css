@@ -40,15 +40,26 @@ body {
   height: 1100px;
 }
 
+.textFlex {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .text {
   position: absolute;
-  margin-left: calc(50vw - 450px);
-  margin-top: calc(50vh - 120px);
+  /*margin-left: calc(50vw - 450px);
+  margin-top: calc(50vh - 120px);*/
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 900px;
-  height: 170px;
+  /*height: 170px;*/
   z-index: 20;
   cursor: default;
 }
@@ -212,4 +223,61 @@ p {
 }
 
 @media (max-width: 375px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  /*.picture {
+    position: relative;
+  }*/
+
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15 {
+    top: 0;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .s2, .s4 {
+    height: 3100px;
+    padding: 20px 0;
+  }
+
+  .title {
+    margin-top: 15px;
+  }
+
+  .s3 > div {
+    height: 450px;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .s3text {
+    width: auto;
+  }
+
+  .redslash {
+    display: none;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 5px;
+  }
 }
