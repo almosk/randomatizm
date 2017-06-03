@@ -1,18 +1,6 @@
-.bg {
-  width: 480px;
-  height: 700px;
-  min-width: 480px;
-  min-height: 700px;
-  /*background-image: url(../materials/malevich-1/bg2.png);*/
-}
-
 .figures {
   width: 388px;
-  height: 618px;
-  margin-left: 50px;
-  margin-top: 38px;
   background-image: url(../materials/artwork1/0.svg);
-  box-shadow: 0 5px 15px -5px #636363;
 }
 
 .f1 {

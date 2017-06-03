@@ -36,7 +36,7 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  z-index: 21;
+  z-index: 999999;
   display: none;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .bounce {
-  animation: bounce 2s 2 ease;
+  animation: bounce 2s 1 ease;
 }
 
 .comments {

@@ -1,19 +1,6 @@
-.bg {
-  width: 465px;
-  height: 594px;
-  min-width: 465px;
-  min-height: 594px;
-  /*background-image: url(../materials/popova-1/bg.png);*/
-  margin-right: 60px;
-}
-
 .figures {
   width: 455px;
-  height: 587px;
-  margin-left: 6px;
-  margin-top: 3px;
   background-image: url(../materials/artwork9/0.svg);
-  box-shadow: 0 5px 15px -5px #636363;
 }
 
 .f1 {

@@ -19,17 +19,13 @@ body {
   align-items: center;
 }
 
-.bg {
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  display: block;
-  z-index: 99;
-}
-
 .figures {
   position: relative;
   overflow: hidden;
+  height: 600px;
+  margin-right: 50px;
+  box-shadow: 0 5px 15px -5px #636363;
+  z-index: 999999;
 }
 
 .rectangle {

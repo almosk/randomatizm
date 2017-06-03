@@ -1,16 +1,6 @@
-.bg {
-  width: 546px;
-  height: 600px;
-  min-width: 480px;
-  min-height: 700px;
-}
-
 .figures {
   width: 476px;
-  height: 600px;
-  margin: 50px auto;
   background-image: url(../materials/artwork3/0.svg);
-  box-shadow: 0 5px 15px -5px #636363;
 }
 
 .f1 {
