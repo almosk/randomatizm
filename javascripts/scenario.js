@@ -5,12 +5,15 @@ $(function(){
 
   function comment() {
     $('div.comments').toggleClass('none');
+    $('div.comments_mobile').toggleClass('none');
     $('section.menubar').toggleClass('none');
   }
 
   function bgOpacity() {
     $('div.s1_bg').addClass('bgOpacity');
   }
+
+
 
   $('.topText').fadeIn(10);
 

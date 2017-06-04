@@ -88,3 +88,10 @@ a {
   z-index: 1;
   display: none;
 }
+
+@media (max-width: 375px) {
+  .about {
+    width: 315px;
+    padding: 22px 24px;
+  }
+}

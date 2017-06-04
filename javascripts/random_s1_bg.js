@@ -24,7 +24,7 @@ $(function() {
 		}
 	}
 
-	$('.s1_bg').click(function() {
+	$('.s1_bg, .shift').click(function() {
 		$('div.tooriginal').removeClass('original')
 		rectangles();
 	});
@@ -46,7 +46,7 @@ $(function() {
     original('.rectangle.f10');
   }
 
-	$('.text').click(function() {
+	$('p.esc').click(function() {
     originals();
 	});
 

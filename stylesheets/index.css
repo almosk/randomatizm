@@ -93,6 +93,10 @@ body {
   animation: bounce 2s 1 ease;
 }
 
+.comments_mobile {
+  display: none;
+}
+
 .comments {
   position: absolute;
   width: 100vw;
@@ -180,7 +184,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
 
-  padding: 0 80px;
+  padding: 0 140px;
 }
 
 .s3text {
@@ -222,13 +226,80 @@ p {
   margin-top: 10px;
 }
 
+@media (max-width: 1224px) {
+  .redslash {
+    display: none;
+  }
+}
+
+@media (max-width: 1180px) {
+  h1 {
+    /*font-family: T-StarPro-Heavy;*/
+    font-size: 120px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .s2 {
+    height: 1500px;
+  }
+
+  .s4 {
+    height: 1500px;
+  }
+
+  .pic1  {top: 100px;  left: 5% ;}
+  .pic2  {top: 30px;   left: 37%;}
+  .pic3  {top: 120px;  left: 69%;}
+  .pic4  {top: 580px;  left: 20%;}
+  .pic5  {top: 540px;  left: 53%;}
+  .pic6  {top: 950px;  left: 4%; }
+  .pic7  {top: 1100px; left: 36%;}
+  .pic8  {top: 975px;  left: 68%;}
+
+  .pic9  {top: 100px;  left: 5% ;}
+  .pic10 {top: 30px;   left: 37%;}
+  .pic11 {top: 120px;  left: 69%;}
+  .pic12 {top: 520px;  left: 17%;}
+  .pic13 {top: 590px;  left: 53%;}
+  .pic14 {top: 950px;  left: 4%; }
+  .pic15 {top: 1100px; left: 36%;}
+  .pic16 {top: 1020px;  left: 68%;}
+}
+
+@media (max-width: 1024px) {
+  .s3 {
+    height: 400px;
+  }
+
+  .s3 > div {
+    padding: 0 80px;
+  }
+
+  .s3text {
+    width: 380px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 375px) {
   h1 {
-    font-size: 36px;
+    /*font-family: T-StarPro-Heavy;*/
+    font-size: 42px;
   }
 
   h2 {
     font-size: 14px;
+    font-family: T-StarPro;
   }
 
   /*.picture {
@@ -260,6 +331,10 @@ p {
     margin-top: 15px;
   }
 
+  .s3 {
+    height: 500px;
+  }
+
   .s3 > div {
     height: 450px;
     flex-direction: column;
@@ -277,6 +352,7 @@ p {
   h3 {
     font-size: 24px;
     line-height: 30px;
+    margin-top: 30px;
   }
 
   p {
@@ -287,5 +363,36 @@ p {
 
   .picture:hover {
     transform: scale(1);
+  }
+
+  .arrow {
+    height: 35px;
+    top: calc(100vh - 60px);
+  }
+
+  .comments {
+    display: none;
+  }
+
+  .comments_mobile {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    top: calc(100vh - 50px);
+    padding: 0 30px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    z-index: 9999999;
+    transition: .8s ease;
+    cursor: default;
+    text-decoration: underline;
+  }
+
+  .comments>p {
+    font-size: 18px;
+    font-family:  T-StarPro;
   }
 }
