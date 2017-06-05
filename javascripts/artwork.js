@@ -1,79 +1,65 @@
 $(function() {
-	var rectangle = (element) => {
-		document.querySelector(element).style.left = Math.floor(Math.random()*(90-10)+10)+'%';
-		document.querySelector(element).style.top = Math.floor(Math.random()*(90-10)+10)+'%';
-		document.querySelector(element).style.transform = 'rotate(' + Math.floor(Math.random()*4)*90 + 'deg) translateX(' + Math.floor(Math.random()*(100-0)+0) + '%) translateY(' + Math.floor(Math.random()*(100-0)+0) + '%) scale(' + Math.floor(Math.random()*(15-8)+8)/10 + ')';
+	function randomPosition() {
+		var random = Math.floor(Math.random() * (90 - 10) + 10)
+		return random + '%'
 	}
 
-	function rectangles() {
-		rectangle('.rectangle.f1');
-		rectangle('.rectangle.f2');
-		rectangle('.rectangle.f3');
-		rectangle('.rectangle.f4');
-		rectangle('.rectangle.f5');
-		rectangle('.rectangle.f6');
-		rectangle('.rectangle.f7');
-		rectangle('.rectangle.f8');
-		rectangle('.rectangle.f9');
-		rectangle('.rectangle.f10');
-		rectangle('.rectangle.f11');
-		rectangle('.rectangle.f12');
-		rectangle('.rectangle.f13');
-		rectangle('.rectangle.f14');
-		rectangle('.rectangle.f15');
-		rectangle('.rectangle.f16');
-		rectangle('.rectangle.f17');
-		rectangle('.rectangle.f18');
-		rectangle('.rectangle.f19');
-		rectangle('.rectangle.f20');
-		rectangle('.rectangle.f21');
-		rectangle('.rectangle.f22');
+	function randomRotate() {
+		var random = Math.floor(Math.random() * 4) * 90
+		return 'rotate(' + random + 'deg)'
+	}
 
+	function randomTranslate(a) {
+		var random = Math.floor(Math.random() * (100 - 0) + 0)
+		return 'translate' + a.toUpperCase() + '(' + random + '%)'
+	}
+
+	function randomScale() {
+		var random = Math.floor(Math.random() * (15 - 8) + 8) / 10
+		return 'scale(' + random + ')'
+	}
+
+	function randomTransform() {
+		return randomRotate() + randomTranslate('X') + randomTranslate('Y') + randomScale()
+	}
+
+	function randomizeElement(element) {
+		var styles = {
+			left:      randomPosition(),
+			top:       randomPosition(),
+			transform: randomTransform()
+		}
+
+		$(element).css(styles)
+	}
+
+	function randomizeArtwork() {
+		$('div.normalize').removeClass('original')
+
+		$('.rectangle').each(function() {
+			randomizeElement(this)
+		})
+	}
+
+	function normalizeArtwork() {
+		$('div.normalize').addClass('original')
+
+		$('.rectangle').each(function() {
+			$(this).attr('style', '')
+		})
 	}
 
 	$('.figures, .random').click(function() {
-		$('div.tooriginal').removeClass('original')
-		rectangles();
-	});
+		randomizeArtwork()
+	})
 
-	document.onkeyup = (e) => {
-		if(e.keyCode == 32){
-			$('div.tooriginal').removeClass('original')
-			rectangles();
+	$('.normalize').click(function() {
+		normalizeArtwork()
+	})
+
+	document.onkeyup = function(e) {
+		if (e.keyCode == 32) {
+			randomizeArtwork()
 		}
 	}
-
-	var original = (element) => {
-		$('.rectangle').attr('style', '')
-	}
-
-	function originals() {
-		original('.rectangle.f1');
-		original('.rectangle.f2');
-		original('.rectangle.f3');
-		original('.rectangle.f4');
-		original('.rectangle.f5');
-		original('.rectangle.f6');
-		original('.rectangle.f7');
-		original('.rectangle.f8');
-		original('.rectangle.f9');
-		original('.rectangle.f10');
-		original('.rectangle.f11');
-		original('.rectangle.f12');
-		original('.rectangle.f13');
-		original('.rectangle.f14');
-		original('.rectangle.f15');
-		original('.rectangle.f16');
-		original('.rectangle.f17');
-		original('.rectangle.f18');
-		original('.rectangle.f19');
-		original('.rectangle.f20');
-		original('.rectangle.f21');
-		original('.rectangle.f22');
-	}
-
-	$('.tooriginal').click(function() {
-		$('div.tooriginal').addClass('original')
-		originals();
-	});
-});
+})
