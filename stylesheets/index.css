@@ -60,6 +60,10 @@ body {
   margin-top: -14vh;
 }
 
+.bottomText {
+  transition: 1s;
+}
+
 .arrow {
   position: absolute;
   width: 100vw;
@@ -207,7 +211,7 @@ h1 {
 h2 {
   font-size: 32px;
   font-family:  T-StarPro-Medium;
-  display: none;
+  /*display: none;*/
 }
 
 h3 {
@@ -298,9 +302,9 @@ p {
     font-family: T-StarPro;
   }
 
-  /*.picture {
-    position: relative;
-  }*/
+  .text {
+    margin-top: 0;
+  }
 
   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15, .pic16 {
     top: 0;

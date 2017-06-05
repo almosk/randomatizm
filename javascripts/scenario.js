@@ -13,19 +13,16 @@ $(function(){
     $('div.s1_bg').addClass('bgOpacity');
   }
 
-
+  function bottomText() {
+    $('.bottomText').toggleClass('opacityZero');
+  }
 
   $('.topText').fadeIn(10);
-
   $('.s1_bg').fadeIn(1000);
 
   setTimeout(bgOpacity, 2400)
-
   setTimeout(teletype, 2500)
-
-  $('.bottomText').delay(3500);
-  $('.bottomText').fadeIn(1000);
-
+  setTimeout(bottomText, 3500)
   setTimeout(comment, 3500)
 
   $('.arrow').delay(3700);
