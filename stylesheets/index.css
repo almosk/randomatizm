@@ -291,19 +291,9 @@ p {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 667px) {
   h1 {
-    /*font-family: T-StarPro-Heavy;*/
-    font-size: 42px;
-  }
-
-  h2 {
-    font-size: 14px;
-    font-family: T-StarPro;
-  }
-
-  .text {
-    margin-top: 0;
+    font-size: 80px;
   }
 
   .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15, .pic16 {
@@ -314,7 +304,6 @@ p {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
   }
 
@@ -327,47 +316,17 @@ p {
     height: 3400px;
   }
 
-  .title {
-    margin-top: 15px;
-  }
-
-  .s3 {
-    height: 500px;
-  }
-
   .s3 > div {
-    height: 450px;
-    flex-direction: column;
-    padding: 30px;
+    padding: 0 40px;
+    height: 210px;
   }
 
   .s3text {
-    width: auto;
+    width: 280px;
   }
 
-  .redslash {
-    display: none;
-  }
-
-  h3 {
-    font-size: 24px;
-    line-height: 30px;
-    margin-top: 30px;
-  }
-
-  p {
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 5px;
-  }
-
-  .picture:hover {
-    transform: scale(1);
-  }
-
-  .arrow {
-    height: 35px;
-    top: calc(100vh - 60px);
+  .title {
+    margin-top: 15px;
   }
 
   .comments {
@@ -395,4 +354,56 @@ p {
     font-size: 18px;
     font-family:  T-StarPro;
   }
+
+  p {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    /*font-family: T-StarPro-Heavy;*/
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 14px;
+    font-family: T-StarPro;
+  }
+
+  .text {
+    margin-top: 0;
+  }
+
+  .s3 {
+    height: 500px;
+  }
+
+  .s3 > div {
+    height: 450px;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .s3text {
+    width: auto;
+  }
+
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+
+  .picture:hover {
+    transform: scale(1);
+  }
+
+  .arrow {
+    height: 35px;
+    top: calc(100vh - 60px);
+  }
+
 }
