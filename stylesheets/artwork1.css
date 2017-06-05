@@ -1,3 +1,7 @@
+.figcaption {
+  width: 360px;
+}
+
 .figures {
   width: 388px;
   background-image: url(../materials/artwork1/0.svg);
