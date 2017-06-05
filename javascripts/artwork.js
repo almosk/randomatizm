@@ -1,43 +1,92 @@
 $(function() {
-	function randomPosition() {
-		var random = Math.floor(Math.random() * (90 - 10) + 10)
+	function getURLParameter(name) {
+	  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+	}
+
+	function random() {
+		return Math.random()
+	}
+
+	function randomPosition(r) {
+		var random = Math.floor(r * (90 - 10) + 10)
 		return random + '%'
 	}
 
-	function randomRotate() {
-		var random = Math.floor(Math.random() * 4) * 90
+	function randomRotate(r) {
+		var random = Math.floor(r * 4) * 90
 		return 'rotate(' + random + 'deg)'
 	}
 
-	function randomTranslate(a) {
-		var random = Math.floor(Math.random() * (100 - 0) + 0)
+	function randomTranslate(r, a) {
+		var random = Math.floor(r * (100 - 0) + 0)
 		return 'translate' + a.toUpperCase() + '(' + random + '%)'
 	}
 
-	function randomScale() {
-		var random = Math.floor(Math.random() * (15 - 8) + 8) / 10
+	function randomScale(r) {
+		var random = Math.floor(r * (15 - 8) + 8) / 10
 		return 'scale(' + random + ')'
 	}
 
-	function randomTransform() {
-		return randomRotate() + randomTranslate('X') + randomTranslate('Y') + randomScale()
+	function randomTransform(r3, r4, r5, r6) {
+		return randomRotate(r3) + randomTranslate(r4, 'X') + randomTranslate(r5, 'Y') + randomScale(r6)
 	}
 
-	function randomizeElement(element) {
+	function randomizeElement(r1, r2, r3, r4, r5, r6, element) {
 		var styles = {
-			left:      randomPosition(),
-			top:       randomPosition(),
-			transform: randomTransform()
+			left:      randomPosition(r1),
+			top:       randomPosition(r2),
+			transform: randomTransform(r3, r4, r5, r6)
 		}
 
 		$(element).css(styles)
+
+		return styles
 	}
 
 	function randomizeArtwork() {
 		$('div.normalize').removeClass('original')
 
+		var randomArtworkData = []
+		var queryString = ''
+
 		$('.rectangle').each(function() {
-			randomizeElement(this)
+			var r1 = random()
+			var r2 = random()
+			var r3 = random()
+			var r4 = random()
+			var r5 = random()
+			var r6 = random()
+			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
+			var id = $(this).attr('id')
+			var queryStringPart = id + '=' + r1 + '+' + r2 + '+' + r3 + '+' + r4 + '+' + r5 + '+' + r6
+
+			randomArtworkData.push(queryStringPart)
+		})
+
+		randomArtworkData.map(function(v, i) {
+			if (i == 0) {
+				queryString = '?' + v
+			// } else if (i == randomArtworkData.length - 1) {
+				// nothing
+			} else {
+				queryString = queryString + '&' + v
+			}
+		})
+
+		console.log(queryString)
+	}
+
+	function randomizeArtworkFromParams() {
+		$('.rectangle').each(function() {
+			var params = getURLParameter($(this).attr('id')).split(' ')
+
+			var r1 = params[1-1]
+			var r2 = params[2-1]
+			var r3 = params[3-1]
+			var r4 = params[4-1]
+			var r5 = params[5-1]
+			var r6 = params[6-1]
+			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
 		})
 	}
 
@@ -62,4 +111,6 @@ $(function() {
 			randomizeArtwork()
 		}
 	}
+
+	randomizeArtworkFromParams()
 })
