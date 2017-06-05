@@ -291,33 +291,25 @@ p {
   }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 80px;
   }
 
-  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15, .pic16 {
-    top: 0;
-    left: 0;
-    margin: 20px auto;
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  .text {
+    margin-top: 0;
   }
 
-  .s2, .s4 {
-    height: 3200px;
-    padding: 20px 0;
+  .s2 {
+    height: 1850px;
   }
 
-  .s4 {
-    height: 3400px;
+  .s3 {
+    height: 300px;
   }
 
   .s3 > div {
-    padding: 0 40px;
+    padding: 0 90px;
     height: 210px;
   }
 
@@ -325,8 +317,18 @@ p {
     width: 280px;
   }
 
-  .title {
-    margin-top: 15px;
+  .s4 {
+    height: 1850px;
+  }
+
+  .s1_bg {
+    top: 0;
+    transform: scale(1.3);
+  }
+
+  .arrow {
+    height: 35px;
+    top: calc(100vh - 60px);
   }
 
   .comments {
@@ -360,6 +362,59 @@ p {
     line-height: 22px;
     margin-top: 5px;
   }
+
+  .pic1  {top: 70px;   left: 11%;}
+  .pic2  {top: 100px;  left: 56%;}
+  .pic3  {top: 570px;  left: 16%;}
+  .pic4  {top: 520px;  left: 58%;}
+  .pic5  {top: 970px;  left: 11%;}
+  .pic6  {top: 920px;  left: 54%;}
+  .pic7  {top: 1450px; left: 14%;}
+  .pic8  {top: 1250px; left: 58%;}
+
+  .pic9  {top: 70px;   left: 11%;}
+  .pic10 {top: 100px;  left: 56%;}
+  .pic11 {top: 490px;  left: 14%;}
+  .pic12 {top: 520px;  left: 53%;}
+  .pic13 {top: 970px;  left: 11%;}
+  .pic14 {top: 940px;  left: 58%;}
+  .pic15 {top: 1450px; left: 14%;}
+  .pic16 {top: 1350px; left: 54%;}
+}
+
+@media (max-width: 667px) {
+  .s1_bg {
+    top: 0;
+    transform: scale(0.9);
+  }
+
+  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15, .pic16 {
+    top: 0;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .s2, .s4 {
+    height: 3200px;
+    padding: 20px 0;
+  }
+
+  .s3 > div {
+    padding: 0 40px;
+  }
+
+  .s4 {
+    height: 3400px;
+  }
+
+  .title {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -371,10 +426,6 @@ p {
   h2 {
     font-size: 14px;
     font-family: T-StarPro;
-  }
-
-  .text {
-    margin-top: 0;
   }
 
   .s3 {
@@ -399,11 +450,6 @@ p {
 
   .picture:hover {
     transform: scale(1);
-  }
-
-  .arrow {
-    height: 35px;
-    top: calc(100vh - 60px);
   }
 
 }
