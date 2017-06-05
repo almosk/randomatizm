@@ -28,7 +28,6 @@ a {
   text-decoration: none;
 }
 
-
 .menubar {
   width: 100vw;
   height: 50px;
@@ -54,8 +53,7 @@ a {
 
 .about {
   position: fixed;
-  display: block;
-
+  display: none;
 
   width: 290px;
   height: 180px;
@@ -63,7 +61,6 @@ a {
   top: 50px;
   padding: 18px 20px;
   transition: .6s ease;
-
 
   border-style: solid;
   border-width: 1px;
@@ -81,6 +78,10 @@ a {
 
 .about>p>a {
   text-decoration: underline;
+}
+
+.about_btn:hover .about {
+  display: block;
 }
 
 .none {

@@ -44,7 +44,7 @@ body {
   width: 330px;
   height: auto;
   display: block;
-  z-index: 99;
+  z-index: 999999;
   position: relative;
 }
 
