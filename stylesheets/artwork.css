@@ -131,6 +131,7 @@ body {
   height: calc(100vh - 200px);
   top: 100px;
   position: absolute;
+  overflow: hidden;
 
   display: flex;
   flex-direction: row;
@@ -203,6 +204,80 @@ img {
   }
 }
 
+@media (max-width: 768px) and (min-width: 668px) {
+  .main {
+    /*transform: scale(.7);*/
+    z-index: 9999;
+  }
+
+  body {
+    overflow-y: scroll;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: flex-start;
+    /*align-items: flex-start;*/
+    height: auto;
+  }
+
+  .bg {
+    margin-top: 100px;
+    /*transform: scale(1.2);*/
+  }
+
+  .figures {
+    margin: 0;
+  }
+
+  .figcaption {
+    /*margin-top: 120px;*/
+    width: 400px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .figcaption>h1 {
+    font-size: 32px;
+    line-height: 30px;
+    text-indent: -16px;
+  }
+
+  .bottons {
+    display: none;
+  }
+
+  .bottons_mobile {
+    width: 180px;
+    height: 60px;
+    margin: 25px 0 35px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .tooriginal {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }
+
+  .tooriginal:hover {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 667px) {
+  .main {
+    transform: scale(.45);
+  }
+}
+
 @media (max-width: 375px) {
   body {
     overflow-y: scroll;
@@ -212,6 +287,7 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     height: auto;
+    transform: scale(1);
   }
 
   .bg {
