@@ -38,7 +38,6 @@ $(function() {
 		console.log(settings.angle == 'right')
 
 		if (settings.angle == 'right') {
-			console.log('YO')
 			var random = Math.floor(r * 4) * 90
 		} else {
 			var random = r * 4 * 90
