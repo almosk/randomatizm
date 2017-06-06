@@ -70,7 +70,9 @@ a {
   border-width: 1px;
   border-color: black;
   background-color: white;
-  z-index: 999999999
+  z-index: 999999999;
+
+  cursor: default;
 }
 
 .about>p {

@@ -188,7 +188,7 @@ body {
 .s3 > div {
   width: 100vw;
   max-width: 1440px;
-  height: 300px;
+  height: auto;
   position: relative;
 
   display: flex;
@@ -201,6 +201,7 @@ body {
 
 .s3text {
   width: 400px;
+  margin: 0 50px;
 }
 
 .redslash {
@@ -256,9 +257,6 @@ p {
     display: none;
   }
 
-}
-
-@media (max-width: 1180px) {
   h1 {
     /*font-family: T-StarPro-Heavy;*/
     font-size: 120px;
@@ -367,12 +365,13 @@ p {
   }
 
   .s3 > div {
-    padding: 0 90px;
+    padding: 0 60px;
     height: 210px;
   }
 
   .s3text {
     width: 280px;
+    margin: 0 20px;
   }
 
   .s4 {

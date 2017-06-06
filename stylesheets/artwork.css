@@ -205,7 +205,7 @@ img {
 }
 
 @media (min-width: 2000px) {
-  .main {
+  .bg, .figcaption {
     transform: scale(1.4);
   }
 }
