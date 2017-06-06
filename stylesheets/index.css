@@ -20,6 +20,7 @@ body {
 .s2 {
   position: relative;
   width: 100vw;
+  max-width: 1440px;
   height: 1000px;
 }
 
@@ -37,7 +38,17 @@ body {
 .s4 {
   position: relative;
   width: 100vw;
+  max-width: 1440px;
   height: 1100px;
+}
+
+.picturesFlex {
+  /*width: 100vw;
+  height: 100vh;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .textFlex {
@@ -176,6 +187,7 @@ body {
 
 .s3 > div {
   width: 100vw;
+  max-width: 1440px;
   height: 300px;
   position: relative;
 
@@ -225,11 +237,25 @@ p {
   line-height: 29px;
   margin-top: 10px;
 }
+@media (min-width: 1680px) {
+  .s1_bg {
+    transform: scale(1.6);
+  }
+
+  h1 {
+    font-size: 160px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+}
 
 @media (max-width: 1224px) {
   .redslash {
     display: none;
   }
+
 }
 
 @media (max-width: 1180px) {
