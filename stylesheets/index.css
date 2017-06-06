@@ -20,6 +20,7 @@ body {
 .s2 {
   position: relative;
   width: 100vw;
+  max-width: 1440px;
   height: 1000px;
 }
 
@@ -37,7 +38,17 @@ body {
 .s4 {
   position: relative;
   width: 100vw;
+  max-width: 1440px;
   height: 1100px;
+}
+
+.picturesFlex {
+  /*width: 100vw;
+  height: 100vh;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .textFlex {
@@ -176,7 +187,8 @@ body {
 
 .s3 > div {
   width: 100vw;
-  height: 300px;
+  max-width: 1440px;
+  height: auto;
   position: relative;
 
   display: flex;
@@ -189,6 +201,7 @@ body {
 
 .s3text {
   width: 400px;
+  margin: 0 50px;
 }
 
 .redslash {
@@ -225,14 +238,25 @@ p {
   line-height: 29px;
   margin-top: 10px;
 }
+@media (min-width: 1680px) {
+  .s1_bg {
+    transform: scale(1.7);
+  }
+
+  h1 {
+    font-size: 220px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+}
 
 @media (max-width: 1224px) {
   .redslash {
     display: none;
   }
-}
 
-@media (max-width: 1180px) {
   h1 {
     /*font-family: T-StarPro-Heavy;*/
     font-size: 120px;
@@ -341,12 +365,13 @@ p {
   }
 
   .s3 > div {
-    padding: 0 90px;
+    padding: 0 60px;
     height: 210px;
   }
 
   .s3text {
     width: 280px;
+    margin: 0 20px;
   }
 
   .s4 {
