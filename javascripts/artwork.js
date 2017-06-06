@@ -154,9 +154,9 @@ $(function() {
 
 		ga('send', {
 		  hitType: 'event',
-		  eventCategory: 'Artworks',
+		  eventCategory: getPathFromUrl(window.location.href),
 		  eventAction: 'randomize',
-			eventLabel: 'Whole Statistics'
+			eventLabel: window.location.href
 		})
 	}
 
@@ -190,9 +190,9 @@ $(function() {
 
 		ga('send', {
 			hitType: 'event',
-			eventCategory: 'Artworks',
+			eventCategory: getPathFromUrl(window.location.href),
 			eventAction: 'normalize',
-			eventLabel: 'Whole Statistics'
+			eventLabel: window.location.href
 		})
 	}
 
