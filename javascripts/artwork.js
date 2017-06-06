@@ -1,12 +1,14 @@
 $(function() {
 	var settings = {
-		angle: 'right'
+		angle: 'right',
+		scale: 'normal'
 	}
 
 	init()
 
 	function init() {
 		initAngle()
+		initScale()
 	}
 
 	function initAngle() {
@@ -14,6 +16,14 @@ $(function() {
 
 		if (angle) {
 			settings.angle = angle
+		}
+	}
+
+	function initAngle() {
+		var scale = $('#artwork').attr('data-scale')
+
+		if (scale) {
+			settings.scale = scale
 		}
 	}
 
@@ -50,7 +60,14 @@ $(function() {
 	}
 
 	function randomScale(r) {
-		var random = Math.floor(r * (15 - 8) + 8) / 10
+		if (settings.scale == 'normal') {
+			var random = Math.floor(r * (15 - 8) + 8) / 10
+		} else if (settings.scale == 'small') {
+			var random = Math.floor(r * (15 - 8) + 8) / 10
+		} else if (settings.scale == 'large') {
+			var random = Math.floor(r * (15 - 8) + 8) / 10
+		}
+		
 		return 'scale(' + random + ')'
 	}
 
