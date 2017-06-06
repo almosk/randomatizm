@@ -7,7 +7,7 @@
   background-image: url(../materials/artwork8/0.svg);
 }
 
-.f1 {
+#f1 {
   background-image: url(../materials/artwork8/1.svg);
   left: 144px;
   top: 86px;
@@ -17,7 +17,7 @@
 }
 
 
-.f2 {
+#f2 {
   background-image: url(../materials/artwork8/2.svg);
   left: 67px;
   top: 199px;
@@ -26,7 +26,7 @@
   z-index: 2;
 }
 
-.f3 {
+#f3 {
   background-image: url(../materials/artwork8/3.svg);
   left: 305px;
   top: 197px;
@@ -35,7 +35,7 @@
   z-index: 3;
 }
 
-.f4 {
+#f4 {
   background-image: url(../materials/artwork8/4.svg);
   left: 305px;
   top: 197px;
@@ -44,7 +44,7 @@
   z-index: 4;
 }
 
-.f5 {
+#f5 {
   background-image: url(../materials/artwork8/5.svg);
   left: 307px;
   top: 197px;
@@ -53,7 +53,7 @@
   z-index: 5;
 }
 
-.f6 {
+#f6 {
   background-image: url(../materials/artwork8/6.svg);
   left: 75px;
   top: 209px;
@@ -62,7 +62,7 @@
   z-index: 6;
 }
 
-.f7 {
+#f7 {
   background-image: url(../materials/artwork8/7.svg);
   left: 195px;
   top: 399px;
@@ -71,7 +71,7 @@
   z-index: 7;
 }
 
-.f8 {
+#f8 {
   background-image: url(../materials/artwork8/8.svg);
   left: 181px;
   top: 417px;
@@ -80,7 +80,7 @@
   z-index: 8;
 }
 
-.f9 {
+#f9 {
   background-image: url(../materials/artwork8/9.svg);
   left: 76px;
   top: 208px;
@@ -89,7 +89,7 @@
   z-index: 9;
 }
 
-.f10 {
+#f10 {
   background-image: url(../materials/artwork8/10.svg);
   left: 213px;
   top: 188px;
@@ -98,7 +98,7 @@
   z-index: 10;
 }
 
-.f11 {
+#f11 {
   background-image: url(../materials/artwork8/11.svg);
   left: 153px;
   top: 130px;
@@ -107,7 +107,7 @@
   z-index: 11;
 }
 
-.f12 {
+#f12 {
   background-image: url(../materials/artwork8/12.svg);
   left: 153px;
   top: 130px;

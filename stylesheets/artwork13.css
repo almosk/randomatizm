@@ -3,7 +3,7 @@
   background-image: url(../materials/artwork13/3.svg);
 }
 
-.f1 {
+#f1 {
   background-image: url(../materials/artwork13/2.svg);
   left: 164px;
   top: 78px;
@@ -13,7 +13,7 @@
 }
 
 
-.f2 {
+#f2 {
   background-image: url(../materials/artwork13/1.svg);
   left: 45px;
   top:232px;

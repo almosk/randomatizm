@@ -7,7 +7,7 @@
   background-image: url(../materials/artwork7/0.svg);
 }
 
-.f1 {
+#f1 {
   background-image: url(../materials/artwork7/1.svg);
   left: 146px;
   top: 99px;
@@ -17,7 +17,7 @@
 }
 
 
-.f2 {
+#f2 {
   background-image: url(../materials/artwork7/2.svg);
   left: 177px;
   top: 110px;
@@ -26,7 +26,7 @@
   z-index: 2;
 }
 
-.f3 {
+#f3 {
   background-image: url(../materials/artwork7/3.svg);
   left: 133px;
   top: 70px;
@@ -35,7 +35,7 @@
   z-index: 3;
 }
 
-.f4 {
+#f4 {
   background-image: url(../materials/artwork7/4.svg);
   left: 230px;
   top: 161px;
@@ -44,7 +44,7 @@
   z-index: 4;
 }
 
-.f5 {
+#f5 {
   background-image: url(../materials/artwork7/5.svg);
   left: 272px;
   top: 179px;
@@ -53,7 +53,7 @@
   z-index: 5;
 }
 
-.f6 {
+#f6 {
   background-image: url(../materials/artwork7/6.svg);
   left: 274px;
   top: 252px;
@@ -62,7 +62,7 @@
   z-index: 6;
 }
 
-.f7 {
+#f7 {
   background-image: url(../materials/artwork7/7.svg);
   left: 98px;
   top: 244px;
@@ -71,7 +71,7 @@
   z-index: 7;
 }
 
-.f8 {
+#f8 {
   background-image: url(../materials/artwork7/8.svg);
   left: 71px;
   top: 323px;
@@ -80,7 +80,7 @@
   z-index: 8;
 }
 
-.f9 {
+#f9 {
   background-image: url(../materials/artwork7/9.svg);
   left: 106px;
   top: 245px;
@@ -89,7 +89,7 @@
   z-index: 9;
 }
 
-.f10 {
+#f10 {
   background-image: url(../materials/artwork7/10.svg);
   left: 241px;
   top: 377px;
@@ -98,7 +98,7 @@
   z-index: 10;
 }
 
-.f11 {
+#f11 {
   background-image: url(../materials/artwork7/11.svg);
   left: 335px;
   top: 454px;
@@ -107,7 +107,7 @@
   z-index: 11;
 }
 
-.f12 {
+#f12 {
   background-image: url(../materials/artwork7/12.svg);
   left: 359px;
   top: 348px;
@@ -116,7 +116,7 @@
   z-index: 12;
 }
 
-.f13 {
+#f13 {
   background-image: url(../materials/artwork7/13.svg);
   left: 68px;
   top: 459px;

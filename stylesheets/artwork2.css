@@ -3,7 +3,7 @@
   background-image: url(../materials/artwork2/0.svg);
 }
 
-.f1 {
+#f1 {
   background-image: url(../materials/artwork2/1.svg);
   left: 89px;
   top: 497px;
@@ -13,7 +13,7 @@
 }
 
 
-.f2 {
+#f2 {
   background-image: url(../materials/artwork2/2.svg);
   left: 0px;
   top: 35px;
@@ -22,7 +22,7 @@
   z-index: 14;
 }
 
-.f3 {
+#f3 {
   background-image: url(../materials/artwork2/3.svg);
   left: 253px;
   top: 440px;
@@ -31,7 +31,7 @@
   z-index: 13;
 }
 
-.f4 {
+#f4 {
   background-image: url(../materials/artwork2/4.svg);
   left: 256px;
   top: 467px;
@@ -40,7 +40,7 @@
   z-index: 12;
 }
 
-.f5 {
+#f5 {
   background-image: url(../materials/artwork2/5.svg);
   left: 393px;
   top: 254px;
@@ -49,7 +49,7 @@
   z-index: 11;
 }
 
-.f6 {
+#f6 {
   background-image: url(../materials/artwork2/6.svg);
   left: 73px;
   top: 219px;
@@ -58,7 +58,7 @@
   z-index: 10;
 }
 
-.f7 {
+#f7 {
   background-image: url(../materials/artwork2/7.svg);
   left: 125px;
   top: 98px;
@@ -67,7 +67,7 @@
   z-index: 9;
 }
 
-.f8 {
+#f8 {
   background-image: url(../materials/artwork2/8.svg);
   left: 88px;
   top: 175px;
@@ -76,7 +76,7 @@
   z-index: 8;
 }
 
-.f9 {
+#f9 {
   background-image: url(../materials/artwork2/9.svg);
   left: 253px;
   top: 309px;
@@ -85,7 +85,7 @@
   z-index: 7;
 }
 
-.f10 {
+#f10 {
   background-image: url(../materials/artwork2/10.svg);
   left: 77px;
   top: 317px;
@@ -94,7 +94,7 @@
   z-index: 6;
 }
 
-.f11 {
+#f11 {
   background-image: url(../materials/artwork2/11.svg);
   left: 417px;
   top: 230px;
@@ -103,7 +103,7 @@
   z-index: 5;
 }
 
-.f12 {
+#f12 {
   background-image: url(../materials/artwork2/12.svg);
   left: 425px;
   top: 221px;
@@ -112,7 +112,7 @@
   z-index: 4;
 }
 
-.f13 {
+#f13 {
   background-image: url(../materials/artwork2/13.svg);
   left: 52px;
   top: -13px;
@@ -121,7 +121,7 @@
   z-index: 3;
 }
 
-.f14 {
+#f14 {
   background-image: url(../materials/artwork2/14.svg);
   left: 72px;
   top: 373px;
@@ -130,7 +130,7 @@
   z-index: 2;
 }
 
-.f15 {
+#f15 {
   background-image: url(../materials/artwork2/15.svg);
   left: 99px;
   top: 307px;
