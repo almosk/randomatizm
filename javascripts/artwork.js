@@ -112,6 +112,13 @@ $(function() {
 		var shareURL = encodeURIComponent(window.location.href)
 		$('#share').attr('data-url', window.location.href)
 		$('.save').attr('href', $('.save').attr('href') + shareURL)
+		initSocialLikes()
+	}
+
+	function initSocialLikes() {
+		$('.social-likes').socialLikes({
+			url: window.location.href
+		})
 	}
 
 	$('.figures, .random').click(function() {
