@@ -70,21 +70,17 @@ $(function() {
 		randomArtworkData.map(function(v, i) {
 			if (i == 0) {
 				queryString = '?' + v
-			// } else if (i == randomArtworkData.length - 1) {
-				// nothing
 			} else {
 				queryString = queryString + '&' + v
 			}
 		})
 
-		console.log(queryString)
-		// window.location.href = getPathFromUrl(window.location.href) + queryString
-		// window.history.pushState("", document.title, "/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0] + queryString)
-		// console.log("/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0])
 		window.history.pushState("", document.title, getPathFromUrl(window.location.href) + queryString)
 	}
 
 	function randomizeArtworkFromParams() {
+		$('div.normalize').removeClass('original')
+
 		$('.rectangle').each(function() {
 			var params = getURLParameter($(this).attr('id')).split(' ')
 
@@ -106,6 +102,8 @@ $(function() {
 		$('.rectangle').each(function() {
 			$(this).attr('style', '')
 		})
+
+		window.history.pushState("", document.title, getPathFromUrl(window.location.href))
 	}
 
 	$('.figures, .random').click(function() {
@@ -122,5 +120,7 @@ $(function() {
 		}
 	}
 
-	randomizeArtworkFromParams()
+  if (window.location.search) {
+		randomizeArtworkFromParams()
+	}
 })
