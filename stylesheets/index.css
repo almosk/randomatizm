@@ -239,15 +239,15 @@ p {
 }
 @media (min-width: 1680px) {
   .s1_bg {
-    transform: scale(1.6);
+    transform: scale(1.7);
   }
 
   h1 {
-    font-size: 160px;
+    font-size: 220px;
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 48px;
   }
 }
 
