@@ -48,7 +48,7 @@ $(function() {
 	}
 
 	function randomizeArtwork() {
-		$('div.normalize').removeClass('original')
+		$('div.normalize, a.save').removeClass('original')
 
 		var randomArtworkData = []
 		var queryString = ''
@@ -80,7 +80,7 @@ $(function() {
 	}
 
 	function randomizeArtworkFromParams() {
-		$('div.normalize').removeClass('original')
+		$('div.normalize, a.save').removeClass('original')
 
 		$('.rectangle').each(function() {
 			var params = getURLParameter($(this).attr('id')).split(' ')
@@ -98,7 +98,7 @@ $(function() {
 	}
 
 	function normalizeArtwork() {
-		$('div.normalize').addClass('original')
+		$('div.normalize, a.save').addClass('original')
 
 		$('.rectangle').each(function() {
 			$(this).attr('style', '')
@@ -110,8 +110,8 @@ $(function() {
 
 	function updateShareUrl() {
 		var shareURL = encodeURIComponent(window.location.href)
-		console.log(shareURL)
 		$('#share').attr('data-url', shareURL)
+		$('.save').attr('href', $('.save').attr('href') + shareURL)
 	}
 
 	$('.figures, .random').click(function() {
