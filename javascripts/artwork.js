@@ -1,25 +1,45 @@
 $(function() {
 	var settings = {
-		angle: 'right',
-		scale: 'normal'
+		position:  'normal',
+		rotate:    'right',
+		translate: 'normal',
+		scale:     'normal'
 	}
 
 	init()
 
 	function init() {
-		initAngle()
+		initPosition()
+		initRotate()
+		initTranslate()
 		initScale()
 	}
 
-	function initAngle() {
-		var angle = $('#artwork').attr('data-angle')
+	function initPosition() {
+		var position = $('#artwork').attr('data-position')
 
-		if (angle) {
-			settings.angle = angle
+		if (position) {
+			settings.position = position
 		}
 	}
 
-	function initAngle() {
+	function initRotate() {
+		var rotate = $('#artwork').attr('data-rotate')
+
+		if (rotate) {
+			settings.rotate = rotate
+		}
+	}
+
+	function initTranslate() {
+		var translate = $('#artwork').attr('data-translate')
+
+		if (translate) {
+			settings.translate = translate
+		}
+	}
+
+	function initScale() {
 		var scale = $('#artwork').attr('data-scale')
 
 		if (scale) {
@@ -40,12 +60,19 @@ $(function() {
 	}
 
 	function randomPosition(r) {
-		var random = Math.floor(r * (90 - 10) + 10)
+		if (settings.position == 'normal') {
+			var random = Math.floor(r * (90 - 10) + 10)
+		} else if (settings.position == 'small') {
+			var random = Math.floor(r * (90 - 10) + 10)
+		} else if (settings.position == 'large') {
+			var random = Math.floor(r * (90 - 10) + 10)
+		}
+
 		return random + '%'
 	}
 
 	function randomRotate(r) {
-		if (settings.angle == 'right') {
+		if (settings.rotate == 'right') {
 			var random = Math.floor(r * 4) * 90
 		} else {
 			var random = r * 4 * 90
@@ -55,7 +82,14 @@ $(function() {
 	}
 
 	function randomTranslate(r, a) {
-		var random = Math.floor(r * (100 - 0) + 0)
+		if (settings.translate == 'normal') {
+			var random = Math.floor(r * (100 - 0) + 0)
+		} else if (settings.translate == 'small') {
+			var random = Math.floor(r * (100 - 0) + 0)
+		} else if (settings.translate == 'large') {
+			var random = Math.floor(r * (100 - 0) + 0)
+		}
+
 		return 'translate' + a.toUpperCase() + '(' + random + '%)'
 	}
 
@@ -67,7 +101,7 @@ $(function() {
 		} else if (settings.scale == 'large') {
 			var random = Math.floor(r * (15 - 8) + 8) / 10
 		}
-		
+
 		return 'scale(' + random + ')'
 	}
 
