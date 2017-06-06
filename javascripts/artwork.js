@@ -1,4 +1,22 @@
 $(function() {
+	var settings = {
+		angle: 'right'
+	}
+
+	init()
+
+	function init() {
+		initAngle()
+	}
+
+	function initAngle() {
+		var angle = $('#artwork').attr('data-angle')
+
+		if (angle) {
+			settings.angle = angle
+		}
+	}
+
 	function getPathFromUrl(url) {
 		return url.split('?')[0]
 	}
@@ -17,7 +35,15 @@ $(function() {
 	}
 
 	function randomRotate(r) {
-		var random = Math.floor(r * 4) * 90
+		console.log(settings.angle == 'right')
+
+		if (settings.angle == 'right') {
+			console.log('YO')
+			var random = Math.floor(r * 4) * 90
+		} else {
+			var random = r * 4 * 90
+		}
+
 		return 'rotate(' + random + 'deg)'
 	}
 
@@ -75,7 +101,7 @@ $(function() {
 			}
 		})
 
-		window.history.pushState("", document.title, getPathFromUrl(window.location.href) + queryString)
+		window.history.pushState('', document.title, getPathFromUrl(window.location.href) + queryString)
 		updateShareUrl()
 	}
 
@@ -104,7 +130,7 @@ $(function() {
 			$(this).attr('style', '')
 		})
 
-		window.history.pushState("", document.title, getPathFromUrl(window.location.href))
+		window.history.pushState('', document.title, getPathFromUrl(window.location.href))
 		updateShareUrl()
 	}
 
