@@ -25,7 +25,7 @@ $(function() {
 	}
 
 	$('.s1_bg, .shift').click(function() {
-		$('div.tooriginal').removeClass('original')
+		$('div.normalize').removeClass('original')
 		rectangles();
 	});
 

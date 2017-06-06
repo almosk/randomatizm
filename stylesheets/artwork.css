@@ -95,6 +95,7 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: black;
+  user-select: none;
 }
 
 .random:active {
@@ -102,7 +103,7 @@ body {
   transition: none;
 }
 
-.tooriginal {
+.normalize {
   width: 120px;
   height: 40px;
   line-height: 40px;
@@ -117,7 +118,7 @@ body {
   border-color: black;*/
 }
 
-.tooriginal:active {
+.normalize:active {
   text-decoration: underline;
 }
 
@@ -329,13 +330,13 @@ img {
 
   }
 
-  .tooriginal {
+  .normalize {
     border-style: solid;
     border-width: 1px;
     border-color: black;
   }
 
-  .tooriginal:hover {
+  .normalize:hover {
     text-decoration: none;
   }
 }

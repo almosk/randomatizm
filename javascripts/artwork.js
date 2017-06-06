@@ -1,79 +1,126 @@
 $(function() {
-	var rectangle = (element) => {
-		document.querySelector(element).style.left = Math.floor(Math.random()*(90-10)+10)+'%';
-		document.querySelector(element).style.top = Math.floor(Math.random()*(90-10)+10)+'%';
-		document.querySelector(element).style.transform = 'rotate(' + Math.floor(Math.random()*4)*90 + 'deg) translateX(' + Math.floor(Math.random()*(100-0)+0) + '%) translateY(' + Math.floor(Math.random()*(100-0)+0) + '%) scale(' + Math.floor(Math.random()*(15-8)+8)/10 + ')';
+	function getPathFromUrl(url) {
+		return url.split('?')[0]
 	}
 
-	function rectangles() {
-		rectangle('.rectangle.f1');
-		rectangle('.rectangle.f2');
-		rectangle('.rectangle.f3');
-		rectangle('.rectangle.f4');
-		rectangle('.rectangle.f5');
-		rectangle('.rectangle.f6');
-		rectangle('.rectangle.f7');
-		rectangle('.rectangle.f8');
-		rectangle('.rectangle.f9');
-		rectangle('.rectangle.f10');
-		rectangle('.rectangle.f11');
-		rectangle('.rectangle.f12');
-		rectangle('.rectangle.f13');
-		rectangle('.rectangle.f14');
-		rectangle('.rectangle.f15');
-		rectangle('.rectangle.f16');
-		rectangle('.rectangle.f17');
-		rectangle('.rectangle.f18');
-		rectangle('.rectangle.f19');
-		rectangle('.rectangle.f20');
-		rectangle('.rectangle.f21');
-		rectangle('.rectangle.f22');
+	function getURLParameter(name) {
+	  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
+	}
 
+	function random() {
+		return Math.random()
+	}
+
+	function randomPosition(r) {
+		var random = Math.floor(r * (90 - 10) + 10)
+		return random + '%'
+	}
+
+	function randomRotate(r) {
+		var random = Math.floor(r * 4) * 90
+		return 'rotate(' + random + 'deg)'
+	}
+
+	function randomTranslate(r, a) {
+		var random = Math.floor(r * (100 - 0) + 0)
+		return 'translate' + a.toUpperCase() + '(' + random + '%)'
+	}
+
+	function randomScale(r) {
+		var random = Math.floor(r * (15 - 8) + 8) / 10
+		return 'scale(' + random + ')'
+	}
+
+	function randomTransform(r3, r4, r5, r6) {
+		return randomRotate(r3) + randomTranslate(r4, 'X') + randomTranslate(r5, 'Y') + randomScale(r6)
+	}
+
+	function randomizeElement(r1, r2, r3, r4, r5, r6, element) {
+		var styles = {
+			left:      randomPosition(r1),
+			top:       randomPosition(r2),
+			transform: randomTransform(r3, r4, r5, r6)
+		}
+
+		$(element).css(styles)
+
+		return styles
+	}
+
+	function randomizeArtwork() {
+		$('div.normalize').removeClass('original')
+
+		var randomArtworkData = []
+		var queryString = ''
+
+		$('.rectangle').each(function() {
+			var r1 = random()
+			var r2 = random()
+			var r3 = random()
+			var r4 = random()
+			var r5 = random()
+			var r6 = random()
+			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
+			var id = $(this).attr('id')
+			var queryStringPart = id + '=' + r1 + '+' + r2 + '+' + r3 + '+' + r4 + '+' + r5 + '+' + r6
+
+			randomArtworkData.push(queryStringPart)
+		})
+
+		randomArtworkData.map(function(v, i) {
+			if (i == 0) {
+				queryString = '?' + v
+			// } else if (i == randomArtworkData.length - 1) {
+				// nothing
+			} else {
+				queryString = queryString + '&' + v
+			}
+		})
+
+		console.log(queryString)
+		// window.location.href = getPathFromUrl(window.location.href) + queryString
+		// window.history.pushState("", document.title, "/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0] + queryString)
+		// console.log("/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0])
+		window.history.pushState("", document.title, getPathFromUrl(window.location.href) + queryString)
+	}
+
+	function randomizeArtworkFromParams() {
+		$('.rectangle').each(function() {
+			var params = getURLParameter($(this).attr('id')).split(' ')
+
+			var r1 = params[1-1]
+			var r2 = params[2-1]
+			var r3 = params[3-1]
+			var r4 = params[4-1]
+			var r5 = params[5-1]
+			var r6 = params[6-1]
+			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
+		})
+
+		// $('#share').attr('data-url', window.location.href)
+	}
+
+	function normalizeArtwork() {
+		$('div.normalize').addClass('original')
+
+		$('.rectangle').each(function() {
+			$(this).attr('style', '')
+		})
 	}
 
 	$('.figures, .random').click(function() {
-		$('div.tooriginal').removeClass('original')
-		rectangles();
-	});
+		randomizeArtwork()
+	})
 
-	document.onkeyup = (e) => {
-		if(e.keyCode == 32){
-			$('div.tooriginal').removeClass('original')
-			rectangles();
+	$('.normalize').click(function() {
+		normalizeArtwork()
+	})
+
+	document.onkeyup = function(e) {
+		if (e.keyCode == 32) {
+			randomizeArtwork()
 		}
 	}
 
-	var original = (element) => {
-		$('.rectangle').attr('style', '')
-	}
-
-	function originals() {
-		original('.rectangle.f1');
-		original('.rectangle.f2');
-		original('.rectangle.f3');
-		original('.rectangle.f4');
-		original('.rectangle.f5');
-		original('.rectangle.f6');
-		original('.rectangle.f7');
-		original('.rectangle.f8');
-		original('.rectangle.f9');
-		original('.rectangle.f10');
-		original('.rectangle.f11');
-		original('.rectangle.f12');
-		original('.rectangle.f13');
-		original('.rectangle.f14');
-		original('.rectangle.f15');
-		original('.rectangle.f16');
-		original('.rectangle.f17');
-		original('.rectangle.f18');
-		original('.rectangle.f19');
-		original('.rectangle.f20');
-		original('.rectangle.f21');
-		original('.rectangle.f22');
-	}
-
-	$('.tooriginal').click(function() {
-		$('div.tooriginal').addClass('original')
-		originals();
-	});
-});
+	randomizeArtworkFromParams()
+})
