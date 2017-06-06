@@ -1,4 +1,8 @@
 $(function() {
+	function getPathFromUrl(url) {
+		return url.split('?')[0]
+	}
+
 	function getURLParameter(name) {
 	  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [null, ''])[1].replace(/\+/g, '%20')) || null;
 	}
@@ -74,6 +78,10 @@ $(function() {
 		})
 
 		console.log(queryString)
+		// window.location.href = getPathFromUrl(window.location.href) + queryString
+		// window.history.pushState("", document.title, "/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0] + queryString)
+		// console.log("/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0])
+		window.history.pushState("", document.title, getPathFromUrl(window.location.href) + queryString)
 	}
 
 	function randomizeArtworkFromParams() {
@@ -88,6 +96,8 @@ $(function() {
 			var r6 = params[6-1]
 			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
 		})
+
+		// $('#share').attr('data-url', window.location.href)
 	}
 
 	function normalizeArtwork() {
