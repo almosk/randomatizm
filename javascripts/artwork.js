@@ -76,6 +76,7 @@ $(function() {
 		})
 
 		window.history.pushState("", document.title, getPathFromUrl(window.location.href) + queryString)
+		updateShareUrl()
 	}
 
 	function randomizeArtworkFromParams() {
@@ -93,7 +94,7 @@ $(function() {
 			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
 		})
 
-		// $('#share').attr('data-url', window.location.href)
+		updateShareUrl()
 	}
 
 	function normalizeArtwork() {
@@ -104,6 +105,11 @@ $(function() {
 		})
 
 		window.history.pushState("", document.title, getPathFromUrl(window.location.href))
+		updateShareUrl()
+	}
+
+	function updateShareUrl() {
+		$('#share').attr('data-url', window.location.href)
 	}
 
 	$('.figures, .random').click(function() {
