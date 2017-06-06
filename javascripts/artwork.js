@@ -109,7 +109,8 @@ $(function() {
 	}
 
 	function updateShareUrl() {
-		$('#share').attr('data-url', window.location.href)
+		var shareURL = encodeURIComponent(window.location.href)
+		$('#share').attr('data-url', shareURL)
 	}
 
 	$('.figures, .random').click(function() {
