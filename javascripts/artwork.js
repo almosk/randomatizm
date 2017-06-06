@@ -151,6 +151,13 @@ $(function() {
 
 		window.history.pushState('', document.title, getPathFromUrl(window.location.href) + queryString)
 		updateShareUrl()
+
+		ga('send', {
+		  hitType: 'event',
+		  eventCategory: 'Artworks',
+		  eventAction: 'randomize',
+			eventLabel: 'Whole Statistics'
+		})
 	}
 
 	function randomizeArtworkFromParams() {
@@ -180,6 +187,13 @@ $(function() {
 
 		window.history.pushState('', document.title, getPathFromUrl(window.location.href))
 		updateShareUrl()
+
+		ga('send', {
+			hitType: 'event',
+			eventCategory: 'Artworks',
+			eventAction: 'normalize',
+			eventLabel: 'Whole Statistics'
+		})
 	}
 
 	function updateShareUrl() {
