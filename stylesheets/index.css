@@ -126,6 +126,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: all .5s ease;
 }
 
 .preview {
@@ -135,9 +136,8 @@ body {
 }
 
 .picture:hover {
-  transform: scale(1.2);
+  transform: scale(1.08);
   z-index: 99;
-  transition: .5s ease;
 }
 
 .title {
