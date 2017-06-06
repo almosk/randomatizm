@@ -35,8 +35,6 @@ $(function() {
 	}
 
 	function randomRotate(r) {
-		console.log(settings.angle == 'right')
-
 		if (settings.angle == 'right') {
 			var random = Math.floor(r * 4) * 90
 		} else {
