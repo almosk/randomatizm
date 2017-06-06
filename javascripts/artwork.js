@@ -110,9 +110,10 @@ $(function() {
 
 	function updateShareUrl() {
 		var shareURL = encodeURIComponent(window.location.href)
-		$('#share').attr('data-url', shareURL)
+		$('#share').attr('data-url', window.location.href)
+		// $('#share').attr('data-url', shareURL)
 		// $('#metaShare').attr('content', shareURL)
-		$('#metaShare').attr('content', shareURL).attr('property', 'og:url')
+		// $('#metaShare').attr('content', shareURL).attr('property', 'og:url')
 		$('.save').attr('href', $('.save').attr('href') + shareURL)
 	}
 
