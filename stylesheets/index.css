@@ -11,7 +11,7 @@ body {
 }
 
 .s1 {
-  position: relative;
+  position: fixed;
   width: 100vw;
   height: calc(100vh);
   overflow: hidden;
@@ -22,9 +22,13 @@ body {
   width: 100vw;
   max-width: 1440px;
   height: 1000px;
+
+  background-color: white;
 }
 
 .s3 {
+  margin-top: 100vh;
+
   position: relative;
   width: 100vw;
   height: 600px;
@@ -33,6 +37,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  background-color: white;
+
+  box-shadow: 0 0 20px 0 #D1D1D1;
+
+  /*color: white;*/
+  /*background-color: red;*/
 }
 
 .s4 {
@@ -40,6 +51,33 @@ body {
   width: 100vw;
   max-width: 1440px;
   height: 1100px;
+
+  background-color: white;
+}
+
+.s5 {
+  position: relative;
+  width: 100vw;
+  max-width: 1440px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background-color: white;
+}
+
+.footer {
+  font-size: 14px;
+  font-family:  T-StarPro-Medium;
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.footer>a {
+  text-decoration: underline;
 }
 
 .picturesFlex {
@@ -183,7 +221,7 @@ body {
 .pic13 {top: 580px; left: 6%;}
 .pic14 {top: 650px; left: 30%;}
 .pic15 {top: 500px; left: 52%;}
-.pic16 {top: 550px; left: 74%;}
+.pic16 {top: 590px; left: 74%;}
 
 .s3teaser {
   font-size: 62px;
@@ -281,23 +319,23 @@ p {
     height: 1500px;
   }
 
-  .pic1  {top: 100px;  left: 5% ;}
-  .pic2  {top: 30px;   left: 37%;}
-  .pic3  {top: 120px;  left: 69%;}
-  .pic4  {top: 580px;  left: 20%;}
-  .pic5  {top: 540px;  left: 53%;}
-  .pic6  {top: 950px;  left: 4%; }
-  .pic7  {top: 1100px; left: 36%;}
-  .pic8  {top: 975px;  left: 68%;}
+  .pic1  {top: 100px;  left: 8% ;}
+  .pic2  {top: 30px;   left: 40%;}
+  .pic3  {top: 120px;  left: 72%;}
+  .pic4  {top: 580px;  left: 23%;}
+  .pic5  {top: 540px;  left: 56%;}
+  .pic6  {top: 950px;  left: 7%; }
+  .pic7  {top: 1100px; left: 39%;}
+  .pic8  {top: 975px;  left: 71%;}
 
-  .pic9  {top: 100px;  left: 5% ;}
-  .pic10 {top: 30px;   left: 37%;}
-  .pic11 {top: 120px;  left: 69%;}
-  .pic12 {top: 520px;  left: 17%;}
-  .pic13 {top: 590px;  left: 53%;}
-  .pic14 {top: 950px;  left: 4%; }
-  .pic15 {top: 1100px; left: 36%;}
-  .pic16 {top: 1020px;  left: 68%;}
+  .pic9  {top: 100px;  left: 8% ;}
+  .pic10 {top: 30px;   left: 40%;}
+  .pic11 {top: 120px;  left: 72%;}
+  .pic12 {top: 520px;  left: 20%;}
+  .pic13 {top: 590px;  left: 56%;}
+  .pic14 {top: 950px;  left: 7%; }
+  .pic15 {top: 1100px; left: 39%;}
+  .pic16 {top: 1020px; left: 71%;}
 }
 
 @media (max-width: 1024px) {
