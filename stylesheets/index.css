@@ -231,7 +231,7 @@ body {
 .s3texts {
   width: 100vw;
   max-width: 1440px;
-  margin-top: 40px;
+  margin-top: 60px;
   height: auto;
   position: relative;
 
@@ -244,7 +244,7 @@ body {
 }
 
 .s3text {
-  width: 400px;
+  width: 410px;
   margin: 0 35px;
 }
 
@@ -277,7 +277,7 @@ h3 {
 }
 
 p {
-  font-size: 24px;
+  font-size: 22px;
   font-family:  T-StarPro;
   line-height: 29px;
   margin-top: 10px;
@@ -300,15 +300,6 @@ p {
 @media (max-width: 1280px) {
   .redslash {
     display: none;
-  }
-
-  h1 {
-    /*font-family: T-StarPro-Heavy;*/
-    font-size: 120px;
-  }
-
-  h2 {
-    font-size: 24px;
   }
 
   .s2 {
@@ -338,6 +329,16 @@ p {
   .pic16 {top: 1020px; left: 71%;}
 }
 
+@media (max-width: 1180px) {
+  h1 {
+    /*font-family: T-StarPro-Heavy;*/
+    font-size: 120px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
 @media (max-width: 1024px) {
   .s3 {
     height: 400px;

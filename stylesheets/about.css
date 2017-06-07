@@ -1,0 +1,91 @@
+.main {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  min-height: 700px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainFlex {
+  width: 360px;
+  height: 500px;
+  display: block;
+  z-index: 999999;
+  position: relative;
+}
+
+.mainFlex>h1 {
+  font-family: T-StarPro-Bold;
+  font-size: 36px;
+  line-height: 34px;
+  text-indent: -16px;
+}
+
+.mainFlex>h2 {
+  font-family: T-StarPro;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 10px;
+}
+
+.mainFlex>p {
+  font-family: T-StarPro;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.menubar>a {
+  text-decoration: none;
+}
+
+.bottons {
+  width: 180px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.bottons>a {
+  width: 180px;
+  height: 40px;
+
+  line-height: 43px;
+  font-size: 20px;
+  text-align: center;
+  font-family: T-StarPro-Bold;
+  letter-spacing: .5px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  user-select: none;
+
+  text-decoration: none;
+}
+
+.bottons:active {
+  background-color: lightgray;
+  transition: none;
+}
+
+@media (max-width: 375px) {
+  .mainFlex {
+    width: 320px;
+  }
+}
