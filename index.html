@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="stylesheets/layout.css">
   <link rel="stylesheet" href="stylesheets/s1_bg.css">
   <link rel="stylesheet" href="stylesheets/index.css">
+  <link rel="stylesheet" href="stylesheets/social-likes_flat_index.css">
 
   <link rel="shortcut icon"                          href="favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57"         href="materials/icons/apple-icon-57x57.png">
@@ -53,61 +54,46 @@
   <script src="javascripts/teletype.js" charset="utf-8"></script>
   <script src="javascripts/scenario.js" charset="utf-8"></script>
   <script src="javascripts/random_s1_bg.js" charset="utf-8"></script>
+  <script src="javascripts/social-likes.min.js"></script>
 </head>
 <body>
+  <section class="s1">
+    <div class="textFlex">
+      <div class="text">
+        <h1 class="topText"></h1>
+        <h2 class="bottomText opacityZero">Рандомизируем супрематизм</h2>
+      </div>
+    </div>
+
+    <div class="arrow bounce"></div>
+
+    <div class="comments none">
+      <p class="shift">R для рандома</p>
+      <p class="esc">ESC для отмены</p>
+    </div>
+
+    <div class="comments_mobile none">
+      <p class="shift">РАНДОМ</p>
+      <p class="esc">ОТМЕНА</p>
+    </div>
+
+    <div class="bgFlex">
+      <div class="s1_bg">
+        <div class="rectangle f1"></div>
+        <div class="rectangle f2"></div>
+        <div class="rectangle f3"></div>
+        <div class="rectangle f4"></div>
+        <div class="rectangle f5"></div>
+        <div class="rectangle f6"></div>
+        <div class="rectangle f7"></div>
+        <div class="rectangle f8"></div>
+        <div class="rectangle f9"></div>
+        <div class="rectangle f10"></div>
+      </div>
+    </div>
+  </section>
+
   <section class="mainsection">
-    <section class="s1">
-      <!-- <section class="menubar none">
-        <a href="#" class="logo_btn">RANDOMATIZM</a>
-        <div class="about_btn">
-          О проекте
-          <div class="about">
-            <p>
-              Проект создан в рамках хакатона<br>
-              студентом 1 курса направления «Дизайн и программирование» <br>
-              <a target="_blank" href="http://design.hse.ru">Школы Дизайна НИУ ВШЭ</a> <br>
-              <a target="_blank" href="https://www.facebook.com/av.mosk">Московским Александром</a>. <br>
-              Куратор <a target="_blank" href="https://www.facebook.com/zakharday">Захар День</a>.<br>
-            </p>
-          </div>
-        </div>
-      </section> -->
-
-      <div class="textFlex">
-          <div class="text">
-            <h1 class="topText"></h1>
-            <h2 class="bottomText opacityZero">Рандомизируем супрематизм</h2>
-          </div>
-      </div>
-
-      <div class="arrow bounce"></div>
-
-      <div class="comments none">
-        <p class="shift">R для рандома</p>
-        <p class="esc">ESC для отмены</p>
-      </div>
-
-      <div class="comments_mobile none">
-        <p class="shift">РАНДОМ</p>
-        <p class="esc">ОТМЕНА</p>
-      </div>
-
-      <div class="bgFlex">
-        <div class="s1_bg">
-          <div class="rectangle f1"></div>
-          <div class="rectangle f2"></div>
-          <div class="rectangle f3"></div>
-          <div class="rectangle f4"></div>
-          <div class="rectangle f5"></div>
-          <div class="rectangle f6"></div>
-          <div class="rectangle f7"></div>
-          <div class="rectangle f8"></div>
-          <div class="rectangle f9"></div>
-          <div class="rectangle f10"></div>
-        </div>
-      </div>
-    </section>
-
     <section class="s3">
       <div class="s3teaser">
         Может ли искусство быть рандомным?
@@ -128,7 +114,7 @@
     </section>
 
     <div class="picturesFlex">
-        <section class="s2" id="spic1">
+      <section class="s2" id="spic1">
         <a href="artworks/artwork1.html" class="picture pic1"> <img class="preview" src="materials/preview/1.png" alt=""> <p class="title">«Живописный реализм футболиста»</p>                                <p class="teaser">Казимир Малевич, 1915.</p>  </a>
         <a href="artworks/artwork2.html" class="picture pic2"> <img class="preview" src="materials/preview/2.png" alt=""> <p class="title">«Супрематизм. Конструкция»</p>                                     <p class="teaser">Иван Клюн, 1916.</p>        </a>
         <a href="artworks/artwork3.html" class="picture pic3"> <img class="preview" src="materials/preview/3.png" alt=""> <p class="title">«Живописная архитектоника»</p>                                     <p class="teaser">Любовь Попова.</p>           </a>
@@ -153,7 +139,18 @@
       </section>
     </div>
 
+    <video width="100%" height="auto" autoplay playsinline muted loop>
+      <source src="http://randomatizm.hack.exchange/materials/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
     <section class="s5">
+      <div class="social-likes social-likes_single" data-counters="no" data-url="http://randomatizm.hack.exchange/artworks/artwork1.html" data-single-title="ПОДЕЛИТЬСЯ" id="share">
+        <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+        <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+        <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+      </div>
+
       <p class="footer">
         Проект создан в рамках хакатона студентом 1 курса <a target="_blank" href="http://design.hse.ru">Школы Дизайна НИУ ВШЭ</a><br>
         направления «Дизайн и программирование»
