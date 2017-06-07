@@ -105,7 +105,7 @@ body {
 }
 
 .normalize {
-  width: 120px;
+  width: 140px;
   height: 40px;
   line-height: 40px;
   font-size: 20px;
@@ -114,9 +114,9 @@ body {
   font-family: T-StarPro;
   margin-left: 15px;
 
-  /*border-style: solid;
+  border-style: solid;
   border-width: 1px;
-  border-color: black;*/
+  border-color: black;
 }
 
 .original {
@@ -281,6 +281,10 @@ img {
 @media (max-width: 667px) {
   .main {
     transform: scale(.45);
+  }
+
+  .navigation {
+    display: none;
   }
 }
 
