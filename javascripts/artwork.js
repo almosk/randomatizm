@@ -117,8 +117,6 @@ $(function() {
 		}
 
 		$(element).css(styles)
-
-		return styles
 	}
 
 	function randomizeArtwork() {
@@ -134,7 +132,9 @@ $(function() {
 			var r4 = random()
 			var r5 = random()
 			var r6 = random()
-			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
+
+			randomizeElement(r1, r2, r3, r4, r5, r6, this)
+
 			var id = $(this).attr('id')
 			var queryStringPart = id + '=' + r1 + '+' + r2 + '+' + r3 + '+' + r4 + '+' + r5 + '+' + r6
 
@@ -145,7 +145,7 @@ $(function() {
 			if (i == 0) {
 				queryString = '?' + v
 			} else {
-				queryString = queryString + '&' + v
+				queryString += '&' + v
 			}
 		})
 
@@ -172,7 +172,8 @@ $(function() {
 			var r4 = params[4-1]
 			var r5 = params[5-1]
 			var r6 = params[6-1]
-			var randomizeData = randomizeElement(r1, r2, r3, r4, r5, r6, this)
+
+			randomizeElement(r1, r2, r3, r4, r5, r6, this)
 		})
 
 		updateShareUrl()
@@ -226,4 +227,14 @@ $(function() {
   if (window.location.search) {
 		randomizeArtworkFromParams()
 	}
+
+	$(window).on('popstate', function (e) {
+    var state = e.originalEvent.state
+
+    if (state !== null) {
+			if (window.location.search) {
+				randomizeArtworkFromParams()
+			}
+    }
+	})
 })
