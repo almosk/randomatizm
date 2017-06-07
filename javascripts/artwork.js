@@ -219,9 +219,16 @@ $(function() {
 		normalizeArtwork()
 	})
 
+
 	document.onkeydown = function(e) {
-		if (e.keyCode == 32) {
+		if (e.keyCode == 82) {
 			randomizeArtwork()
+		}
+	}
+
+	document.onkeyup = function(q) {
+		if(q.keyCode == 27){
+			normalizeArtwork()
 		}
 	}
 

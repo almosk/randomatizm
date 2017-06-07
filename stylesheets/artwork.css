@@ -119,10 +119,6 @@ body {
   border-color: black;*/
 }
 
-.normalize:active {
-  text-decoration: underline;
-}
-
 .original {
   opacity: 0;
   transition: .2s ease-out;

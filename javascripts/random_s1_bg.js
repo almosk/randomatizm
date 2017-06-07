@@ -18,7 +18,7 @@ $(function() {
     rectangle('.rectangle.f10');
   }
 
-	document.onkeyup = (e) => {
+	document.onkeydown = (e) => {
 		if(e.keyCode == 82){
 			rectangles();
 		}
@@ -50,13 +50,24 @@ $(function() {
     originals();
 	});
 
-	document.onkeydown = (q) => {
+	document.onkeyup = (q) => {
 		if(q.keyCode == 27){
-			originals();
+			originals()
 		}
 	}
 
-	rectangles();
-  setTimeout(rectangles, 1000);
-  setTimeout(originals, 2000);
-});
+	rectangles()
+  setTimeout(rectangles, 1000)
+  setTimeout(originals, 2000)
+
+	$(document).on('scroll', function() {
+		var el = document.getElementsByClassName('s3')[0]
+		var elTop = el.getBoundingClientRect().top
+		var documentHeight = document.documentElement.clientHeight
+		var s = 0.9 - (documentHeight - elTop) / documentHeight
+
+		console.log('Scroll', elTop, s)
+
+		$('.s1').css('opacity', s)
+	})
+})
