@@ -10,6 +10,15 @@ body {
   overflow: hidden;
 }
 
+.whiteBg {
+  width: 100vw;
+  height: 100%;
+
+  background-color: white;
+  box-shadow: 0 0 20px 0 #D1D1D1;
+
+}
+
 .s1 {
   position: fixed;
   width: 100vw;
@@ -91,9 +100,6 @@ body {
   justify-content: center;
   flex-direction: column;
 
-  box-shadow: 0 0 20px 0 #D1D1D1;
-
-  background-color: white;
 
 }
 
