@@ -32,6 +32,7 @@ body {
   position: relative;
   width: 100vw;
   height: 600px;
+  padding: 20px 50px;
 
   display: flex;
   align-items: center;
@@ -59,13 +60,14 @@ body {
   position: relative;
   width: 100vw;
   max-width: 1440px;
-  height: 70px;
+  height: 150px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
 
   background-color: white;
+  padding: 20px 0;
 }
 
 .footer {
@@ -73,7 +75,8 @@ body {
   font-family: T-StarPro-Medium;
   text-align: center;
   line-height: 18px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
+  /*margin-bottom: 20px;*/
 }
 
 .footer>a {
@@ -226,6 +229,7 @@ body {
 .s3teaser {
   font-size: 62px;
   font-family:  T-StarPro-Bold;
+  text-align: center;
 }
 
 .s3texts {
@@ -338,10 +342,15 @@ p {
   h2 {
     font-size: 24px;
   }
+
+  .s3teaser {
+    font-size: 54px;
+  }
 }
+
 @media (max-width: 1024px) {
   .s3 {
-    height: 400px;
+    height: 500px;
   }
 
   .s3texts {
@@ -403,11 +412,11 @@ p {
   }
 
   .s2 {
-    height: 1850px;
+    height: 1800px;
   }
 
   .s3 {
-    height: 300px;
+    /*height: 400px;*/
   }
 
   .s3texts {
@@ -444,13 +453,13 @@ p {
   .pic8  {top: 1250px; left: 58%;}
 
   .pic9  {top: 70px;   left: 11%;}
-  .pic10 {top: 100px;  left: 56%;}
+  .pic10 {top: -60px;  left: 56%;}
   .pic11 {top: 490px;  left: 14%;}
-  .pic12 {top: 520px;  left: 53%;}
+  .pic12 {top: 360px;  left: 59%;}
   .pic13 {top: 970px;  left: 11%;}
-  .pic14 {top: 940px;  left: 58%;}
+  .pic14 {top: 840px;  left: 58%;}
   .pic15 {top: 1450px; left: 14%;}
-  .pic16 {top: 1350px; left: 54%;}
+  .pic16 {top: 1350px; left: 56%;}
 }
 
 @media (max-width: 667px) {
@@ -500,13 +509,26 @@ p {
   }
 
   .s3 {
-    height: 500px;
+    height: 700px;
+    padding: 50px 30px;
+    justify-content: flex-start;
+  }
+
+  .s5 {
+    height: 180px;
+  }
+
+  .s3teaser {
+    font-size: 42px;
+    line-height: 46px;
   }
 
   .s3texts {
     height: 450px;
     flex-direction: column;
-    padding: 30px;
+    justify-content: flex-start;
+    padding: 20px 30px;
+    margin-top: 0;
   }
 
   .s3text {
@@ -521,6 +543,10 @@ p {
 
   .picture:hover {
     transform: scale(1);
+  }
+
+  .footer {
+    padding: 0 30px;
   }
 
 }
