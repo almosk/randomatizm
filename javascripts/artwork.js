@@ -61,11 +61,11 @@ $(function() {
 
 	function randomPosition(r) {
 		if (settings.position == 'normal') {
-			var random = Math.floor(r * (90 - 10) + 10)
+			var random = Math.floor(r * (85 - 0) + 0)
 		} else if (settings.position == 'small') {
-			var random = Math.floor(r * (90 - 10) + 10)
+			var random = Math.floor(r * (30 - 0) + 0)
 		} else if (settings.position == 'large') {
-			var random = Math.floor(r * (90 - 10) + 10)
+			var random = Math.floor(r * (90 - 0) + 0)
 		}
 
 		return random + '%'
@@ -83,9 +83,9 @@ $(function() {
 
 	function randomTranslate(r, a) {
 		if (settings.translate == 'normal') {
-			var random = Math.floor(r * (100 - 0) + 0)
+			var random = Math.floor(r * (60 - 0) + 0)
 		} else if (settings.translate == 'small') {
-			var random = Math.floor(r * (100 - 0) + 0)
+			var random = Math.floor(r * (30 - 0) + 0)
 		} else if (settings.translate == 'large') {
 			var random = Math.floor(r * (100 - 0) + 0)
 		}
@@ -95,11 +95,11 @@ $(function() {
 
 	function randomScale(r) {
 		if (settings.scale == 'normal') {
-			var random = Math.floor(r * (15 - 8) + 8) / 10
+			var random = Math.floor(r * (16 - 6) + 6) / 10
 		} else if (settings.scale == 'small') {
-			var random = Math.floor(r * (15 - 8) + 8) / 10
+			var random = Math.floor(r * (12 - 4) + 4) / 10
 		} else if (settings.scale == 'large') {
-			var random = Math.floor(r * (15 - 8) + 8) / 10
+			var random = Math.floor(r * (20 - 8) + 8) / 10
 		}
 
 		return 'scale(' + random + ')'
@@ -217,7 +217,7 @@ $(function() {
 		normalizeArtwork()
 	})
 
-	document.onkeyup = function(e) {
+	document.onkeydown = function(e) {
 		if (e.keyCode == 32) {
 			randomizeArtwork()
 		}
