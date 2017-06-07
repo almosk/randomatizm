@@ -39,9 +39,9 @@ a {
   z-index: 9999999;
 }
 
-.menubar>a, .menubar>div {
+.menubar > a, .menubar > div {
   font-size: 18px;
-  font-family:  T-StarPro;
+  font-family: T-StarPro;
   line-height: 28px;
   letter-spacing: .5px;
   /*margin-right: 15px;*/
@@ -51,7 +51,28 @@ a {
   height: 60px;
 }
 
-.logo_btn:hover, .about_btn:hover {
+.about_btn:hover div {
+  display: none;
+}
+
+.about_btn:hover p {
+  display: block;
+}
+
+.about_btn p {
+  display: none;
+  font-size: 14px;
+  font-family: T-StarPro-Medium;
+  text-align: right;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+
+.about_btn p a {
+  text-decoration: underline;
+}
+
+.logo_btn:hover {
   text-decoration: underline;
 }
 
