@@ -199,8 +199,9 @@ $(function() {
 
 	function updateShareUrl() {
 		var shareURL = encodeURIComponent(window.location.href)
+		var saveEl = $('.save')
 		$('#share').attr('data-url', window.location.href)
-		$('.save').attr('href', $('.save').attr('href') + shareURL)
+		saveEl.attr('href', saveEl.attr('data-template') + shareURL)
 		initSocialLikes()
 	}
 
