@@ -3,7 +3,8 @@ body {
 }
 
 .mainsection {
-  position: relative;
+  margin-top: 100vh;
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,7 +31,7 @@ body {
 }
 
 .s3 {
-  margin-top: 100vh;
+
 
   position: relative;
   width: 100vw;
