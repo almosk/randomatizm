@@ -68,7 +68,7 @@ body {
   flex-direction: column;
   z-index: 20;
   cursor: default;
-  margin-top: -14vh;
+  margin-top: -10vh;
 }
 
 .bottomText {
@@ -185,29 +185,35 @@ body {
 .pic15 {top: 500px; left: 52%;}
 .pic16 {top: 550px; left: 74%;}
 
-.s3 > div {
+.s3teaser {
+  font-size: 62px;
+  font-family:  T-StarPro-Bold;
+}
+
+.s3texts {
   width: 100vw;
   max-width: 1440px;
+  margin-top: 40px;
   height: auto;
   position: relative;
 
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 
   padding: 0 140px;
 }
 
 .s3text {
   width: 400px;
-  margin: 0 50px;
+  margin: 0 35px;
 }
 
 .redslash {
-  width: 25px;
-  height: 500px;
-  margin-top: -120px;
+  width: 15px;
+  height: 350px;
+  margin: -40px 30px 0 0;
   /*margin-right: 50px;*/
   transform: rotate(20deg);
   background-color: #B61004;
@@ -228,8 +234,8 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
-  font-family:  T-StarPro-Bold;
+  font-size: 36px;
+  font-family:  T-StarPro-Medium;
 }
 
 p {
@@ -238,6 +244,7 @@ p {
   line-height: 29px;
   margin-top: 10px;
 }
+
 @media (min-width: 1680px) {
   .s1_bg {
     transform: scale(1.7);
@@ -252,7 +259,7 @@ p {
   }
 }
 
-@media (max-width: 1224px) {
+@media (max-width: 1280px) {
   .redslash {
     display: none;
   }
@@ -298,7 +305,7 @@ p {
     height: 400px;
   }
 
-  .s3 > div {
+  .s3texts {
     padding: 0 80px;
   }
 
@@ -364,7 +371,7 @@ p {
     height: 300px;
   }
 
-  .s3 > div {
+  .s3texts {
     padding: 0 60px;
     height: 210px;
   }
@@ -429,7 +436,7 @@ p {
     padding: 20px 0;
   }
 
-  .s3 > div {
+  .s3texts {
     padding: 0 40px;
   }
 
@@ -457,7 +464,7 @@ p {
     height: 500px;
   }
 
-  .s3 > div {
+  .s3texts {
     height: 450px;
     flex-direction: column;
     padding: 30px;
