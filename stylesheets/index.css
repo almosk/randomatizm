@@ -31,6 +31,7 @@ body {
 
   position: relative;
   width: 100vw;
+  max-width: 1440px;
   height: 600px;
   padding: 20px 50px;
 
