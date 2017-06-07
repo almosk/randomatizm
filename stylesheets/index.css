@@ -415,7 +415,7 @@ p {
   }
 
   .text {
-    margin-top: 0;
+    /*margin-top: 0;*/
   }
 
   .s2 {
@@ -446,8 +446,8 @@ p {
   }
 
   .arrow {
-    height: 35px;
-    top: calc(100vh - 60px);
+    height: 40px;
+    /*top: calc(100vh - 60px);*/
   }
 
   .pic1  {top: 70px;   left: 11%;}
