@@ -224,6 +224,11 @@ img {
     margin-right: 200px;
   }
 }
+@media (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+}
 
 @media (max-width: 768px) and (min-width: 668px) {
   .main {
@@ -294,6 +299,10 @@ img {
 
   .footer {
     display: block;
+  }
+
+  .about_btn {
+    display: none;
   }
 }
 
@@ -370,6 +379,10 @@ img {
 
   .footer {
     display: block;
+  }
+
+  .about_btn {
+    display: none;
   }
 }
 

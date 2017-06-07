@@ -121,7 +121,17 @@ a {
   opacity: 0;
 }
 
+@media (max-width: 768px) and (min-width: 668px) {
+  .about_btn {
+    display: none;
+  }
+}
+
 @media (max-width: 375px) {
+  .about_btn {
+    display: none;
+  }
+  
   .about {
     width: 315px;
     padding: 22px 24px;

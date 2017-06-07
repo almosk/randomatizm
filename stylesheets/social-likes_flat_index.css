@@ -58,6 +58,7 @@
 .social-likes__icon_single{left:.4em;font-size:1.1em}
 .social-likes__widget_facebook{}
 .social-likes_light .social-likes__button_facebook{color:#3d5b95}
+/*.social-likes__button_facebook:hover, .social-likes__button_twitter:hover, .social-likes__button_vkontakte:hover {background-color: lightgray;}*/
 .social-likes__icon_facebook{left:.25em;top:.05em;font-size:1.1em}
 .social-likes_notext .social-likes__icon_facebook{margin-left:.15em}
 .social-likes__widget_twitter{}
