@@ -42,7 +42,6 @@ body {
 
   background-color: white;
 
-  box-shadow: 0 0 20px 0 #D1D1D1;
 
   /*color: white;*/
   /*background-color: red;*/
@@ -91,6 +90,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  box-shadow: 0 0 20px 0 #D1D1D1;
+
+  background-color: white;
+
 }
 
 .textFlex {
