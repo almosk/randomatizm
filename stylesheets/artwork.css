@@ -200,6 +200,21 @@ img {
   display: none;
 }
 
+.footer {
+  width: 300px;
+  font-size: 14px;
+  font-family: T-StarPro-Medium;
+  text-align: center;
+  line-height: 18px;
+  margin: 35px auto 20px auto;
+  display: none;
+}
+
+.footer>a {
+  text-decoration: underline;
+}
+
+
 @media (min-width: 2000px) {
   .bg, .figcaption {
     transform: scale(1.4);
@@ -276,6 +291,10 @@ img {
   .tooriginal:hover {
     text-decoration: none;
   }
+
+  .footer {
+    display: block;
+  }
 }
 
 @media (max-width: 667px) {
@@ -330,7 +349,7 @@ img {
   .bottons_mobile {
     width: 180px;
     height: 60px;
-    margin: -55px 0 45px 0;
+    margin: -65px 0 15px 0;
 
     display: flex;
     flex-direction: column;
@@ -347,6 +366,10 @@ img {
 
   .normalize:hover {
     text-decoration: none;
+  }
+
+  .footer {
+    display: block;
   }
 }
 
