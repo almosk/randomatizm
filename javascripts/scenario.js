@@ -6,7 +6,7 @@ $(function(){
   function comment() {
     $('div.comments').toggleClass('none');
     $('div.comments_mobile').toggleClass('none');
-    $('section.menubar').toggleClass('none');
+    // $('section.menubar').toggleClass('none');
   }
 
   function bgOpacity() {
