@@ -1,20 +1,20 @@
 @font-face {
-  src: url(../fonts/T-StarPro-Bold.otf);
+  src: url(../../fonts/T-StarPro-Bold.otf);
   font-family: T-StarPro-Bold;
 }
 
 @font-face {
-  src: url(../fonts/T-StarPro-Heavy.otf);
+  src: url(../../fonts/T-StarPro-Heavy.otf);
   font-family: T-StarPro-Heavy;
 }
 
 @font-face {
-  src: url(../fonts/T-StarPro-Medium.otf);
+  src: url(../../fonts/T-StarPro-Medium.otf);
   font-family: T-StarPro-Medium;
 }
 
 @font-face {
-  src: url(../fonts/T-StarPro.otf);
+  src: url(../../fonts/T-StarPro.otf);
   font-family: T-StarPro;
 }
 
