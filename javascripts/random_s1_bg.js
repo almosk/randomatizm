@@ -66,7 +66,7 @@ $(function() {
 		var documentHeight = document.documentElement.clientHeight
 		var s = 0.9 - (documentHeight - elTop) / documentHeight
 
-		console.log('Scroll', elTop, s)
+		// console.log('Scroll', elTop, s)
 
 		$('.s1').css('opacity', s)
 	})
