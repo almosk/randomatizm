@@ -220,7 +220,7 @@ $(function() {
 		})
 	}
 
-	$('.figures, .random').click(function() {
+	$('.figures, #randomize').click(function() {
 		randomizeArtwork()
 	})
 

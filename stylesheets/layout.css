@@ -21,11 +21,25 @@
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.button,
+.mainsection .social-likes__button.social-likes__button_single {
+  height: 40px;
+  padding: 0 25px;
+  line-height: 43px;
+  font-size: 20px;
+  text-align: center;
+  font-family: T-StarPro-Bold;
+  letter-spacing: .5px;
+  border: solid 1px black;
+  user-select: none;
 }
 
 .menubar {
@@ -51,11 +65,13 @@ a {
   height: 60px;
 }
 
-.about_btn:hover div {
+.about_btn:hover div,
+.about_btn:active div {
   display: none;
 }
 
-.about_btn:hover p {
+.about_btn:hover p,
+.about_btn:active p {
   display: block;
 }
 
@@ -131,7 +147,7 @@ a {
   .about_btn {
     display: none;
   }
-  
+
   .about {
     width: 315px;
     padding: 22px 24px;
