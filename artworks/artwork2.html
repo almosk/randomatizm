@@ -57,6 +57,14 @@
 <body>
   <section class="menubar">
     <a href="../index.html#spic1" class="logo_btn">< К картинам</a>
+    <div class="about_btn">
+      <div>О проекте</div>
+      <p>
+        Проект создан в рамках хакатона студентом 1 курса <a target="_blank" href="http://design.hse.ru">Школы Дизайна НИУ ВШЭ</a> направления <br>
+        «Дизайн и программирование» <a target="_blank" href="https://www.facebook.com/av.mosk">Московским Александром</a>.
+        Куратор <a target="_blank" href="https://www.facebook.com/zakharday">Захар День</a>.<br>
+      </p>
+   </div>
   </section>
 
   <section class="main">
@@ -81,17 +89,22 @@
      </section>
     </div>
 
-    <nav class="buttons_mobile">
-      <div class="normalize original">К оригиналу</div>
-      <div class="about_btn">
-        <div>О проекте</div>
-        <p>
-          Проект создан в рамках хакатона студентом 1 курса <a target="_blank" href="http://design.hse.ru">Школы Дизайна НИУ ВШЭ</a> направления <br>
-          «Дизайн и программирование» <a target="_blank" href="https://www.facebook.com/av.mosk">Московским Александром</a>.
-          Куратор <a target="_blank" href="https://www.facebook.com/zakharday">Захар День</a>.<br>
-        </p>
-     </div>
-    </nav>
+    <section class="buttonsWrapper mobile">
+      <nav class="buttons">
+        <div class="button" id="randomize">РАНДОМ</div>
+        <div class="normalize original">К оригиналу</div>
+      </nav>
+
+      <section class="bottombuttons">
+        <div class="social-likes social-likes_single" data-counters="no" data-url="http://randomatizm.hack.exchange/artworks/artwork1.html" data-single-title="Поделиться" id="share">
+          <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+          <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+          <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+        </div>
+
+        <a class="save original" href="" data-template="mailto:randomatizm@hack.exchange?subject=Randomatizm постер&body=Привет!%0A%0AЯ хочу заказать мой рандомный постер со следующей ссылки:%0A%0A">Заказать постер</a>
+      </section>
+    </section>
 
     <section class="figcaption nomobile">
       <h1>«Супрематизм. Конструкция»</h1>
@@ -100,20 +113,23 @@
 
       <p>Иван Васильевич Клюн родился в&nbsp;1873 году в&nbsp;Владимирской губернии. В&nbsp;начале 1900-х посещал московские частные студии, с&nbsp;1915 уже как последователь малевичевского супрематизма участвовал в&nbsp;&laquo;Последней футуристической выставке картин 0,10&raquo;, опубликовал в&nbsp;её&nbsp;каталоге манифест. С&nbsp;конца 1930-х годов Клюн неожиданно начал писать натюрморты и&nbsp;пейзажи реалистического характера.</p>
 
-      <nav class="buttons">
-        <div class="button" id="randomize">РАНДОМ</div>
-        <div class="normalize original">К оригиналу</div>
-      </nav>
+      <section class="buttonsWrapper desktop">
+        <nav class="buttons">
+          <div class="button" id="randomize">РАНДОМ</div>
+          <div class="normalize original">К оригиналу</div>
+        </nav>
 
-      <section class="bottombuttons">
-        <div class="social-likes social-likes_single" data-counters="no" data-url="http://randomatizm.hack.exchange/artworks/artwork2.html" data-single-title="Поделиться" id="share">
-          <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
-          <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
-          <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
-        </div>
+        <section class="bottombuttons">
+          <div class="social-likes social-likes_single" data-counters="no" data-url="http://randomatizm.hack.exchange/artworks/artwork2.html" data-single-title="Поделиться" id="share">
+            <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+            <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+            <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+          </div>
 
-        <a class="save original" href="" data-template="mailto:randomatizm@hack.exchange?subject=Randomatizm постер&body=Привет!%0A%0AЯ хочу заказать мой рандомный постер со следующей ссылки:%0A%0A">Заказать постер</a>
+          <a class="save original" href="" data-template="mailto:randomatizm@hack.exchange?subject=Randomatizm постер&body=Привет!%0A%0AЯ хочу заказать мой рандомный постер со следующей ссылки:%0A%0A">Заказать постер</a>
+        </section>
       </section>
+
       <div class="footer">
         Проект создан в&nbsp;рамках хакатона <br>студентом 1&nbsp;курса <a target="_blank" href="http://design.hse.ru">Школы Дизайна НИУ ВШЭ</a><br>
         направления «Дизайн и&nbsp;программирование»
