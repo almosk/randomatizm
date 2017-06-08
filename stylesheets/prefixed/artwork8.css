@@ -1,0 +1,117 @@
+.figcaption {
+  width: 340px;
+}
+
+.figures {
+  width: 438px;
+  background-image: url(../materials/artwork8/0.svg);
+}
+
+#f1 {
+  background-image: url(../materials/artwork8/1.svg);
+  left: 144px;
+  top: 86px;
+  width: 264px;
+  height: 212px;
+  z-index: 1;
+}
+
+
+#f2 {
+  background-image: url(../materials/artwork8/2.svg);
+  left: 67px;
+  top: 199px;
+  width: 195px;
+  height: 195px;
+  z-index: 2;
+}
+
+#f3 {
+  background-image: url(../materials/artwork8/3.svg);
+  left: 305px;
+  top: 197px;
+  width: 3px;
+  height: 169px;
+  z-index: 3;
+}
+
+#f4 {
+  background-image: url(../materials/artwork8/4.svg);
+  left: 305px;
+  top: 197px;
+  width: 2px;
+  height: 169px;
+  z-index: 4;
+}
+
+#f5 {
+  background-image: url(../materials/artwork8/5.svg);
+  left: 307px;
+  top: 197px;
+  width: 2px;
+  height: 169px;
+  z-index: 5;
+}
+
+#f6 {
+  background-image: url(../materials/artwork8/6.svg);
+  left: 75px;
+  top: 209px;
+  width: 214px;
+  height: 210px;
+  z-index: 6;
+}
+
+#f7 {
+  background-image: url(../materials/artwork8/7.svg);
+  left: 195px;
+  top: 399px;
+  width: 8px;
+  height: 40px;
+  z-index: 7;
+}
+
+#f8 {
+  background-image: url(../materials/artwork8/8.svg);
+  left: 181px;
+  top: 417px;
+  width: 35px;
+  height: 7px;
+  z-index: 8;
+}
+
+#f9 {
+  background-image: url(../materials/artwork8/9.svg);
+  left: 76px;
+  top: 208px;
+  width: 241px;
+  height: 4px;
+  z-index: 9;
+}
+
+#f10 {
+  background-image: url(../materials/artwork8/10.svg);
+  left: 213px;
+  top: 188px;
+  width: 18px;
+  height: 18px;
+  z-index: 10;
+}
+
+#f11 {
+  background-image: url(../materials/artwork8/11.svg);
+  left: 153px;
+  top: 130px;
+  width: 78px;
+  height: 59px;
+  z-index: 11;
+}
+
+#f12 {
+  background-image: url(../materials/artwork8/12.svg);
+  left: 153px;
+  top: 130px;
+  width: 60px;
+  height: 77px;
+  z-index: 12;
+}

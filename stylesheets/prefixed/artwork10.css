@@ -1,0 +1,59 @@
+.figures {
+  width: 481px;
+  background-image: url(../materials/artwork10/0.svg);
+}
+
+#f1 {
+  background-image: url(../materials/artwork10/1.svg);
+  left: 140px;
+  top: 337px;
+  width: 67px;
+  height: 67px;
+  z-index: 1;
+}
+
+
+#f2 {
+  background-image: url(../materials/artwork10/2.svg);
+  left: 201px;
+  top: 342px;
+  width: 202px;
+  height: 203px;
+  z-index: 2;
+}
+
+#f3 {
+  background-image: url(../materials/artwork10/3.svg);
+  left: 344px;
+  top: 452px;
+  width: 109px;
+  height: 95px;
+  z-index: 3;
+}
+
+#f4 {
+  background-image: url(../materials/artwork10/4.svg);
+  left: 94px;
+  top: 399px;
+  width: 50px;
+  height: 44px;
+  z-index: 4;
+}
+
+#f5 {
+  background-image: url(../materials/artwork10/5.svg);
+  left: 39px;
+  top: 269px;
+  width: 83px;
+  height: 129px;
+  z-index: 5;
+}
+
+#f6 {
+  background-image: url(../materials/artwork10/6.svg);
+  left: 137px;
+  top: 39px;
+  width: 203px;
+  height: 198px;
+  z-index: 6;
+}

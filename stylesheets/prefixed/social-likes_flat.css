@@ -1,0 +1,47 @@
+.social-likes_single-w {
+  position: relative;
+}
+
+.social-likes_single {
+  position: absolute;
+  margin-top: -30px;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 99999;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden
+}
+
+.social-likes_single.social-likes_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.social-likes__widget {
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.social-likes__single-container .social-likes__widget {
+  height: 40px;
+  line-height: 40px;
+  font-family: T-StarPro-Bold, Arial, sans-serif;
+  vertical-align: baseline;
+  font-size: 14px;
+}
+
+.social-likes__single-container .social-likes__widget:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.social-likes_vertical .social-likes__widget {
+  width: 160px;
+}
+
+.social-likes_single {
+  background: #fff;
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,54 @@
+.figcaption {
+  width: 290px;
+}
+
+.figures {
+  width: 393px;
+  background-image: url(../materials/artwork5/0.svg);
+}
+
+#f1 {
+  background-image: url(../materials/artwork5/1.svg);
+  left: 216px;
+  top: 153px;
+  width: 163px;
+  height: 165px;
+  z-index: 15;
+}
+
+
+#f2 {
+  background-image: url(../materials/artwork5/2.svg);
+  left: 102px;
+  top: 98px;
+  width: 117px;
+  height: 10px;
+  z-index: 14;
+}
+
+#f3 {
+  background-image: url(../materials/artwork5/3.svg);
+  left: 16px;
+  top: 69px;
+  width: 315px;
+  height: 16px;
+  z-index: 13;
+}
+
+#f4 {
+  background-image: url(../materials/artwork5/4.svg);
+  left: 186px;
+  top: 381px;
+  width: 38px;
+  height: 190px;
+  z-index: 12;
+}
+
+#f5 {
+  background-image: url(../materials/artwork5/5.svg);
+  left: 46px;
+  top: 30px;
+  width: 127px;
+  height: 402px;
+  z-index: 11;
+}
