@@ -4,11 +4,11 @@
 
 .figures {
   width: 388px;
-  background-image: url(../materials/artwork11/0.svg);
+  background-image: url(../../materials/artwork11/0.svg);
 }
 
 #f1 {
-  background-image: url(../materials/artwork11/1.svg);
+  background-image: url(../../materials/artwork11/1.svg);
   left: 48px;
   top: 116px;
   width: 240px;
@@ -18,7 +18,7 @@
 
 
 #f2 {
-  background-image: url(../materials/artwork11/2.svg);
+  background-image: url(../../materials/artwork11/2.svg);
   left: 43px;
   top: 223px;
   width: 254px;
@@ -27,7 +27,7 @@
 }
 
 #f3 {
-  background-image: url(../materials/artwork11/3.svg);
+  background-image: url(../../materials/artwork11/3.svg);
   left: 38px;
   top: 106px;
   width: 237px;
@@ -36,7 +36,7 @@
 }
 
 #f4 {
-  background-image: url(../materials/artwork11/4.svg);
+  background-image: url(../../materials/artwork11/4.svg);
   left: 6px;
   top: 406px;
   width: 234px;
@@ -45,7 +45,7 @@
 }
 
 #f5 {
-  background-image: url(../materials/artwork11/5.svg);
+  background-image: url(../../materials/artwork11/5.svg);
   left: 159px;
   top: 19px;
   width: 189px;

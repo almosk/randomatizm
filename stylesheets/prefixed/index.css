@@ -184,7 +184,7 @@ body {
   width: 100vw;
   height: 75px;
   top: calc(74vh);
-  background-image: url(../materials/arrow3.svg);
+  background-image: url(../../materials/arrow3.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

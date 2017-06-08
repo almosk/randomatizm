@@ -4,11 +4,11 @@
 
 .figures {
   width: 388px;
-  background-image: url(../materials/artwork1/0.svg);
+  background-image: url(../../materials/artwork1/0.svg);
 }
 
 #f1 {
-  background-image: url(../materials/artwork1/1.svg);
+  background-image: url(../../materials/artwork1/1.svg);
   left: 104px;
   top: 5px;
   width: 205px;
@@ -18,7 +18,7 @@
 
 
 #f2 {
-  background-image: url(../materials/artwork1/2.svg);
+  background-image: url(../../materials/artwork1/2.svg);
   left: 82px;
   top: 396px;
   width: 72px;
@@ -27,7 +27,7 @@
 }
 
 #f3 {
-  background-image: url(../materials/artwork1/3.svg);
+  background-image: url(../../materials/artwork1/3.svg);
   left: 123px;
   top: 470px;
   width: 70px;
@@ -36,7 +36,7 @@
 }
 
 #f4 {
-  background-image: url(../materials/artwork1/4.svg);
+  background-image: url(../../materials/artwork1/4.svg);
   left: 176px;
   top: 508px;
   width: 43px;
@@ -45,7 +45,7 @@
 }
 
 #f5 {
-  background-image: url(../materials/artwork1/5.svg);
+  background-image: url(../../materials/artwork1/5.svg);
   left: 206px;
   top: 530px;
   width: 59px;
@@ -54,7 +54,7 @@
 }
 
 #f6 {
-  background-image: url(../materials/artwork1/6.svg);
+  background-image: url(../../materials/artwork1/6.svg);
   left: 59px;
   top: 419px;
   width: 253px;
@@ -63,7 +63,7 @@
 }
 
 #f7 {
-  background-image: url(../materials/artwork1/7.svg);
+  background-image: url(../../materials/artwork1/7.svg);
   left: 177px;
   top: 339px;
   width: 84px;
@@ -72,7 +72,7 @@
 }
 
 #f8 {
-  background-image: url(../materials/artwork1/8.svg);
+  background-image: url(../../materials/artwork1/8.svg);
   left: 216px;
   top: 539px;
   width: 21px;
