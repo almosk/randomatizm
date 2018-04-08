@@ -1,0 +1,37 @@
+.textWrapper {
+  max-width: 724px;
+  margin: 104px auto;
+}
+
+.textContainer {
+  max-width: 724px;
+  margin: 0 20px;
+}
+
+h1 {
+  font-family: T-StarProBold;
+  font-size: 36px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 39px;
+
+  margin-bottom: 24px;
+}
+
+p {
+  font-family: T-StarProMedium;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px;
+
+  margin-bottom: 16px;
+}
+
+
+/* MENUBAR */
+
+.about, .aboutDesk {
+  opacity: 0;
+  cursor: auto;
+}
