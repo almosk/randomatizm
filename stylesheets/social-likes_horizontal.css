@@ -12,6 +12,13 @@
   height: 26px;
 
   background-size: cover;
+
+  cursor: pointer;
+}
+
+.social-likes div:hover {
+  transform: scale(1.05);
+  transition: .2s ease-in;
 }
 
 .facebook {
