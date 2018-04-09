@@ -14,11 +14,9 @@
   <meta property="og:description" content="Может ли искусство быть случайным?">
   <meta property="og:image" content="http://randomatizm.hack.exchange/materials/share/share10.png">
 
-  <link rel="stylesheet" href="../stylesheets/prefixed/reset.css">
-  <link rel="stylesheet" href="../stylesheets/prefixed/layout.css">
-  <link rel="stylesheet" href="../stylesheets/prefixed/artwork10.css">
-  <link rel="stylesheet" href="../stylesheets/prefixed/artwork.css">
-  <link rel="stylesheet" href="../stylesheets/prefixed/social-likes_flat.css">
+  <link rel="stylesheet" href="../stylesheets/social-likes_horizontal.css">
+  <link rel="stylesheet" href="../stylesheets/style_artwork.css">
+  <link rel="stylesheet" href="../stylesheets/artworks/artwork10.css">
 
   <link rel="shortcut icon"                          href="../favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57"         href="../materials/icons/apple-icon-57x57.png">
@@ -51,20 +49,18 @@
 
   <script src="../javascripts/jquery.js" charset="utf-8"></script>
   <script src="../javascripts/artwork.js" charset="utf-8"></script>
-  <script src="../javascripts/social-likes.min.js"></script>
+  <!-- <script src="../javascripts/social-likes.min.js"></script> -->
 </head>
 
 <body>
   <section class="menubar">
-    <a href="../index.html#spic2" class="logo_btn">< К картинам</a>
-    <div class="about_btn">
-     <div>О проекте</div>
-     <p>
-       Проект создан в рамках хакатона студентом 1 курса <a target="_blank" href="http://design.hse.ru">Школы Дизайна НИУ ВШЭ</a> направления <br>
-       «Дизайн и программирование» <a target="_blank" href="https://www.facebook.com/av.mosk">Московским Александром</a>.
-       Куратор <a target="_blank" href="https://www.facebook.com/zakharday">Захар День</a>.<br>
-     </p>
-   </div>
+    <a href="../index.html#spic1" class="menubarMobile toPics"></a>
+
+    <a href="../index.html#spic1" class="menubarDesktop">< к картинам</a>
+    <a class="logo" href="../index.html">RANDOMATIZM</a>
+    <a href="../about.html" class="menubarDesktop">о проекте</a>
+
+    <a href="../about.html" class="menubarMobile about"></a>
   </section>
 
   <section class="main">
@@ -80,59 +76,42 @@
       </section>
     </div>
 
-    <section class="buttonsWrapper mobile">
-      <nav class="buttons">
-        <div class="button" id="randomize">РАНДОМ</div>
-        <div class="normalize original">К оригиналу</div>
-      </nav>
-
-      <section class="bottombuttons">
-        <div class="social-likes social-likes_single" data-counters="no" data-url="http://randomatizm.hack.exchange/artworks/artwork1.html" data-single-title="Поделиться" id="share">
-          <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
-          <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
-          <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
-        </div>
-
-        <a class="save original" href="" data-template="mailto:randomatizm@hack.exchange?subject=Randomatizm постер&body=Привет!%0A%0AЯ хочу заказать мой рандомный постер со следующей ссылки:%0A%0A">Заказать постер</a>
-      </section>
-    </section>
-
     <section class="figcaption nomobile">
-      <h1>«Автопортрет в двух измерениях»</h1>
+      <section class="textWrapper">
+        <h2>Казимир Малевич, 1915.</h2>
 
-      <h2>Казимир Малевич, 1915.</h2>
+        <h1>«Автопортрет в двух измерениях»</h1>
 
-      <p>Казимир Северинович Малевич&nbsp;&mdash; основоположник супрематизма. Участвовал в&nbsp;выставках общества &laquo;Бубновый валет&raquo;, Салона независимых в&nbsp;Париже, а&nbsp;в&nbsp;1915 году на&nbsp;&laquo;Последней футуристической выставке картин &bdquo;0,10&ldquo;&raquo; экспонировал 39&nbsp;работ под общим названием &laquo;Супрематизм живописи&raquo;. Среди них был Чёрный квадрат&nbsp;&mdash; главное произведение художника. Преподавал в&nbsp;Народном художественном училище и&nbsp;Уновисе, писал теоретические работы о&nbsp;супрематизме.</p>
+        <p>Казимир Северинович Малевич&nbsp;&mdash; основоположник супрематизма. Участвовал в&nbsp;выставках общества &laquo;Бубновый валет&raquo;, Салона независимых в&nbsp;Париже, а&nbsp;в&nbsp;1915 году на&nbsp;&laquo;Последней футуристической выставке картин &bdquo;0,10&ldquo;&raquo; экспонировал 39&nbsp;работ под общим названием &laquo;Супрематизм живописи&raquo;. Среди них был Чёрный квадрат&nbsp;&mdash; главное произведение художника. Преподавал в&nbsp;Народном художественном училище и&nbsp;Уновисе, писал теоретические работы о&nbsp;супрематизме.</p>
+      </section>
 
       <section class="buttonsWrapper desktop">
-        <nav class="buttons">
-          <div class="button" id="randomize">РАНДОМ</div>
+        <nav class="buttonsRand">
+          <div class="randomize" id="randomize">РАНДОМ</div>
           <div class="normalize original">К оригиналу</div>
         </nav>
 
-        <section class="bottombuttons">
-          <div class="social-likes social-likes_single" data-counters="no" data-url="http://randomatizm.hack.exchange/artworks/artwork10.html" data-single-title="Поделиться" id="share">
-            <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
-            <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
-            <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+        <section class="buttonsShare">
+          <div class="social-likes">
+            <div class="facebook" title="Поделиться ссылкой на Фейсбуке"></div>
+            <div class="twitter" title="Поделиться ссылкой в Твиттере"></div>
+            <div class="vkontakte" title="Поделиться ссылкой во Вконтакте"></div>
           </div>
-
-          <a class="save original" href="" data-template="mailto:randomatizm@hack.exchange?subject=Randomatizm постер&body=Привет!%0A%0AЯ хочу заказать мой рандомный постер со следующей ссылки:%0A%0A">Заказать постер</a>
         </section>
       </section>
-
-      <div class="footer">
-        Проект создан в&nbsp;рамках хакатона <br>студентом 1&nbsp;курса <a target="_blank" href="http://design.hse.ru">Школы Дизайна НИУ ВШЭ</a><br>
-        направления «Дизайн и&nbsp;программирование»
-        <a target="_blank" href="https://www.facebook.com/av.mosk">Московским Александром</a>.
-        Куратор <a target="_blank" href="https://www.facebook.com/zakharday">Захар День</a>.<br>
-      </div>
     </section>
   </section>
 
   <section class="navigation">
     <a href="artwork9.html"><img class="left"  src="../materials/preview/9.png" alt=""></a>
     <a href="artwork11.html"><img class="right" src="../materials/preview/11.png" alt=""></a>
+  </section>
+
+  <section class="footer">
+    <div class="">
+      © 2017-2018 Александр Московский, Захар День<br>
+      Школа дизайна НИУ ВШЭ, профиль «Дизайн и программирование»
+    </div>
   </section>
 </body>
 </html>

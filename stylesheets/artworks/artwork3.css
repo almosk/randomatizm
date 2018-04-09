@@ -1,14 +1,14 @@
 .figcaption {
-  width: 360px;
+  /* width: 360px; */
 }
 
 .figures {
   width: 476px;
-  background-image: url(../materials/artwork3/0.svg);
+  background-image: url(../../materials/artwork3/0.svg);
 }
 
 #f1 {
-  background-image: url(../materials/artwork3/1.svg);
+  background-image: url(../../materials/artwork3/1.svg);
   left: 30px;
   top: 24px;
   width:441px;
@@ -18,7 +18,7 @@
 
 
 #f2 {
-  background-image: url(../materials/artwork3/2.svg);
+  background-image: url(../../materials/artwork3/2.svg);
   left: 63px;
   top: 54px;
   width: 284px;
@@ -27,7 +27,7 @@
 }
 
 #f3 {
-  background-image: url(../materials/artwork3/3.svg);
+  background-image: url(../../materials/artwork3/3.svg);
   left: 145px;
   top: 13px;
   width: 234px;

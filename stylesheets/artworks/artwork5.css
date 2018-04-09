@@ -1,14 +1,14 @@
 .figcaption {
-  width: 290px;
+  /* width: 290px; */
 }
 
 .figures {
   width: 393px;
-  background-image: url(../materials/artwork5/0.svg);
+  background-image: url(../../materials/artwork5/0.svg);
 }
 
 #f1 {
-  background-image: url(../materials/artwork5/1.svg);
+  background-image: url(../../materials/artwork5/1.svg);
   left: 216px;
   top: 153px;
   width: 163px;
@@ -18,7 +18,7 @@
 
 
 #f2 {
-  background-image: url(../materials/artwork5/2.svg);
+  background-image: url(../../materials/artwork5/2.svg);
   left: 102px;
   top: 98px;
   width: 117px;
@@ -27,7 +27,7 @@
 }
 
 #f3 {
-  background-image: url(../materials/artwork5/3.svg);
+  background-image: url(../../materials/artwork5/3.svg);
   left: 16px;
   top: 69px;
   width: 315px;
@@ -36,7 +36,7 @@
 }
 
 #f4 {
-  background-image: url(../materials/artwork5/4.svg);
+  background-image: url(../../materials/artwork5/4.svg);
   left: 186px;
   top: 381px;
   width: 38px;
@@ -45,7 +45,7 @@
 }
 
 #f5 {
-  background-image: url(../materials/artwork5/5.svg);
+  background-image: url(../../materials/artwork5/5.svg);
   left: 46px;
   top: 30px;
   width: 127px;

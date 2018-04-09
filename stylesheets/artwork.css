@@ -59,7 +59,7 @@ body {
 }
 
 .figcaption h1 {
-  font-family: T-StarProBold;
+  font-family: T-StarPro-Bold;
   font-size: 36px;
   color: #000000;
   letter-spacing: 0;
@@ -80,7 +80,7 @@ body {
 }
 
 .figcaption p {
-  font-family: T-StarProMedium;
+  font-family: T-StarPro-Medium;
   font-size: 18px;
   color: #000000;
   letter-spacing: 0;
@@ -140,7 +140,7 @@ body {
   /* margin-left: 21px; */
   margin-top: 12px;
 
-  font-family: T-StarProMedium;
+  font-family: T-StarPro-Medium;
   font-size: 14px;
   color: rgba(0,0,0,0.50);
   letter-spacing: 1px;
@@ -229,6 +229,10 @@ img {
 }
 
 @media (max-width: 1024px) {
+  .main {
+    transform: scale(0.8);
+  }
+  
   .navigation {
     display: none;
   }
@@ -237,6 +241,7 @@ img {
 @media (max-width: 768px) and (min-width: 668px) {
   .main {
     z-index: 9999;
+    transform: scale(1);
   }
 
   body {
@@ -366,7 +371,7 @@ img {
   }
 
   .figcaption p {
-    font-family: T-StarProMedium;
+    font-family: T-StarPro-Medium;
     font-size: 16px;
     color: #000000;
     letter-spacing: 0;

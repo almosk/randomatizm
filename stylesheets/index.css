@@ -62,7 +62,7 @@ body {
   z-index: 999999;
   position: relative;
 
-  margin-right: 112px;
+  margin-right: 142px;
 
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@ body {
 }
 
 .figcaption h1 {
-  font-family: T-StarProBold;
+  font-family: T-StarPro-Bold;
   font-size: 64px;
   color: #000000;
   letter-spacing: 3.5px;
@@ -81,7 +81,7 @@ body {
 }
 
 .figcaption h2 {
-  font-family: T-StarProMedium;
+  font-family: T-StarPro-Medium;
   font-size: 24px;
   color: #000000;
   letter-spacing: 0.5px;
@@ -91,7 +91,7 @@ body {
 }
 
 .figcaption p {
-  font-family: T-StarProMedium;
+  font-family: T-StarPro-Medium;
   font-size: 24px;
   color: #000000;
   letter-spacing: 0;
@@ -151,7 +151,7 @@ body {
   /* margin-left: 21px; */
   margin-top: 12px;
 
-  font-family: T-StarProMedium;
+  font-family: T-StarPro-Medium;
   font-size: 14px;
   color: rgba(0,0,0,0.50);
   letter-spacing: 1px;
@@ -263,7 +263,7 @@ body {
 
 .s3teaser {
   max-width: 708px;
-  font-family: T-StarProMedium;
+  font-family: T-StarPro-Medium;
   font-size: 36px;
   color: #000000;
   letter-spacing: 0;
@@ -272,7 +272,7 @@ body {
 }
 
 .s3text {
-  font-family: T-StarProMedium;
+  font-family: T-StarPro-Medium;
   font-size: 24px;
   color: rgba(0,0,0,0.50);
   letter-spacing: 0;
@@ -857,7 +857,7 @@ p {
   }
 
   .figcaption p {
-    font-family: T-StarProMedium;
+    font-family: T-StarPro-Medium;
     font-size: 16px;
     color: #000000;
     letter-spacing: 0;
