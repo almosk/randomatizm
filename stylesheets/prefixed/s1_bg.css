@@ -9,14 +9,14 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   overflow: hidden;
 }
 
@@ -28,7 +28,7 @@
   display: block;
   display: none;
   -webkit-transform: scaleY(0.9);
-  transform: scaleY(0.9);
+          transform: scaleY(0.9);
   -webkit-transition: .8s ease;
   transition: .8s ease;
 }
@@ -46,7 +46,7 @@
 }
 
 .f1 {
-  background-image: url(../../materials/s1_bg_2/1.svg);
+  background-image: url(../materials/s1_bg_2/1.svg);
   left: 1289px;
   top: 610px;
   width: 55px;
@@ -56,7 +56,7 @@
 
 
 .f2 {
-  background-image: url(../../materials/s1_bg_2/2.svg);
+  background-image: url(../materials/s1_bg_2/2.svg);
   left: 1220px;
   top: 508px;
   width: 140px;
@@ -65,7 +65,7 @@
 }
 
 .f3 {
-  background-image: url(../../materials/s1_bg_3/3.svg);
+  background-image: url(../materials/s1_bg_3/3.svg);
   left: 1035px;
   top: 97px;
   width: 267px;
@@ -74,7 +74,7 @@
 }
 
 .f4 {
-  background-image: url(../../materials/s1_bg_3/4.svg);
+  background-image: url(../materials/s1_bg_3/4.svg);
   left: 679px;
   top: 622px;
   width: 155px;
@@ -83,7 +83,7 @@
 }
 
 .f5 {
-  background-image: url(../../materials/s1_bg_3/5.svg);
+  background-image: url(../materials/s1_bg_3/5.svg);
   left: 156px;
   top: 538px;
   width: 343px;
@@ -92,7 +92,7 @@
 }
 
 .f6 {
-  background-image: url(../../materials/s1_bg_3/6.svg);
+  background-image: url(../materials/s1_bg_3/6.svg);
   left: 57px;
   top: 78px;
   width: 271px;
@@ -101,7 +101,7 @@
 }
 
 .f7 {
-  background-image: url(../../materials/s1_bg_3/7.svg);
+  background-image: url(../materials/s1_bg_3/7.svg);
   left: 192px;
   top: 174px;
   width: 611px;
@@ -110,7 +110,7 @@
 }
 
 .f8 {
-  background-image: url(../../materials/s1_bg_3/8.svg);
+  background-image: url(../materials/s1_bg_3/8.svg);
   left: 1034px;
   top: 145px;
   width: 267px;
@@ -119,7 +119,7 @@
 }
 
 .f9 {
-  background-image: url(../../materials/s1_bg_3/9.svg);
+  background-image: url(../materials/s1_bg_3/9.svg);
   left: 445px;
   top: 24px;
   width: 340px;
@@ -128,7 +128,7 @@
 }
 
 .f10 {
-  background-image: url(../../materials/s1_bg_3/10.svg);
+  background-image: url(../materials/s1_bg_3/10.svg);
   left: 879px;
   top: 563px;
   width: 382px;

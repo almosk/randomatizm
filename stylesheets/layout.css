@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-.button,
+/* .button,
 .mainsection .social-likes__button.social-likes__button_single {
   height: 40px;
   padding: 0 25px;
@@ -40,9 +40,9 @@ a {
   letter-spacing: .5px;
   border: solid 1px black;
   user-select: none;
-}
+} */
 
-.menubar {
+/* .menubar {
   width: 100vw;
   height: 50px;
   position: fixed;
@@ -58,7 +58,6 @@ a {
   font-family: T-StarPro;
   line-height: 28px;
   letter-spacing: .5px;
-  /*margin-right: 15px;*/
 }
 
 .about_btn {
@@ -152,4 +151,4 @@ a {
     width: 315px;
     padding: 22px 24px;
   }
-}
+} */

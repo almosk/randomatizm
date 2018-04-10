@@ -1,0 +1,62 @@
+.textWrapper {
+  max-width: 792px;
+  margin: 120px auto;
+  /* margin: 80px auto; */
+
+}
+
+.textContainer {
+  max-width: 792px;
+  margin: 0 20px;
+}
+
+h1 {
+  font-family: T-StarPro-Bold;
+  font-size: 48px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 48px;
+
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-family: T-StarPro-Medium;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: .4px;
+  line-height: 32px;
+  /* text-transform: uppercase; */
+  color: rgba(0, 0, 0, 0.7);
+
+  margin-bottom: 24px;
+}
+
+p {
+  font-family: T-StarPro-Medium;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px;
+
+  margin-bottom: 16px;
+}
+
+.link {
+  font-family: T-StarPro-Bold;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 48px;
+  text-decoration: underline;
+
+  /* margin-top: 32px; */
+}
+
+
+/* MENUBAR */
+
+.about, .aboutDesk {
+  opacity: 0;
+  cursor: auto;
+}
