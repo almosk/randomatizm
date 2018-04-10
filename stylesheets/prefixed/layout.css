@@ -20,7 +20,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30,7 +30,7 @@ a {
   text-decoration: none;
 }
 
-.button,
+/* .button,
 .mainsection .social-likes__button.social-likes__button_single {
   height: 40px;
   padding: 0 25px;
@@ -40,25 +40,15 @@ a {
   font-family: T-StarPro-Bold;
   letter-spacing: .5px;
   border: solid 1px black;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
-}
+} */
 
-.menubar {
+/* .menubar {
   width: 100vw;
   height: 50px;
   position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 12px 30px;
   z-index: 9999999;
@@ -69,7 +59,6 @@ a {
   font-family: T-StarPro;
   line-height: 28px;
   letter-spacing: .5px;
-  /*margin-right: 15px;*/
 }
 
 .about_btn {
@@ -112,7 +101,6 @@ a {
   right: 30px;
   top: 40px;
   padding: 18px 20px;
-  -webkit-transition: .6s ease;
   transition: .6s ease;
 
   border-style: solid;
@@ -164,4 +152,4 @@ a {
     width: 315px;
     padding: 22px 24px;
   }
-}
+} */
