@@ -33,6 +33,7 @@
   background-image: url(../../materials/share/vk.svg);
 }
 
+
 @media (max-width: 414px) {
   .social-likes {
     width: 144px;
