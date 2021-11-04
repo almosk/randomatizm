@@ -12,7 +12,6 @@ body {
   overflow: hidden;
   background-color: white;
   /* box-shadow: 0 0 20px 0 #D1D1D1; */
-
 }
 
 .s1 {
@@ -49,8 +48,7 @@ body {
   background-size: contain;
   position: absolute;
 
-  transition: .5s;
-
+  transition: 0.5s;
 }
 
 /* CAPTION-TEXT */
@@ -127,7 +125,7 @@ body {
   font-size: 20px;
   text-align: center;
   font-family: T-StarPro-Bold;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   border: solid 1px black;
   user-select: none;
 
@@ -136,7 +134,7 @@ body {
 
 #randomize:hover {
   transform: scale(1.02);
-  transition: .1s ease-in;
+  transition: 0.1s ease-in;
 }
 
 .normalize {
@@ -153,10 +151,10 @@ body {
 
   font-family: T-StarPro-Medium;
   font-size: 14px;
-  color: rgba(0,0,0,0.50);
+  color: rgba(0, 0, 0, 0.5);
   letter-spacing: 1px;
 
-  transition: .1s ease-in;
+  transition: 0.1s ease-in;
 }
 
 .normalize:hover {
@@ -165,7 +163,7 @@ body {
 
 .original {
   opacity: 0;
-  transition: .2s ease-out;
+  transition: 0.2s ease-out;
   cursor: auto;
 }
 
@@ -194,7 +192,6 @@ body {
   height: 43px;
   z-index: 13;
 }
-
 
 #f2 {
   background-image: url(../materials/artwork0/2.svg);
@@ -232,7 +229,6 @@ body {
   z-index: 9;
 }
 
-
 .s2 {
   position: relative;
   width: 100vw;
@@ -256,7 +252,6 @@ body {
 
   background-color: white;
 
-
   /*color: white;*/
   /*background-color: red;*/
 }
@@ -274,7 +269,7 @@ body {
 .s3text {
   font-family: T-StarPro-Medium;
   font-size: 24px;
-  color: rgba(0,0,0,0.50);
+  color: rgba(0, 0, 0, 0.5);
   letter-spacing: 0;
   text-align: center;
   line-height: 36px;
@@ -320,8 +315,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-
 }
 
 .textFlex {
@@ -362,7 +355,11 @@ body {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -393,13 +390,13 @@ body {
   flex-direction: row;
 
   z-index: 99999;
-  transition: .8s ease;
+  transition: 0.8s ease;
   cursor: default;
 }
 
-.comments>p {
+.comments > p {
   font-size: 15px;
-  font-family:  T-StarPro;
+  font-family: T-StarPro;
 }
 
 .picture {
@@ -410,7 +407,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
 
 .preview {
@@ -428,36 +425,83 @@ body {
   width: 200px;
   font-size: 15px;
   line-height: 16px;
-  font-family:  T-StarPro-Bold;
-  text-indent: -8px;
+  font-family: T-StarPro-Bold;
+  /* text-indent: -8px; */
 }
 
 .teaser {
   width: 200px;
   font-size: 12px;
   line-height: 20px;
-  font-family:  T-StarPro;
+  font-family: T-StarPro;
   margin: 0;
 }
 
-.pic1  {top: 70px; left: 6% ;}
-.pic2  {top: 30px;  left: 28%;}
-.pic3  {top: 120px; left: 54%;}
-.pic4  {top: 170px; left: 76%;}
-.pic5  {top: 560px; left: 8%;}
-.pic6  {top: 500px; left: 34%;}
-.pic7  {top: 600px; left: 56%;}
-.pic8  {top: 550px; left: 78%;}
+.pic1 {
+  top: 70px;
+  left: 6%;
+}
+.pic2 {
+  top: 30px;
+  left: 28%;
+}
+.pic3 {
+  top: 120px;
+  left: 54%;
+}
+.pic4 {
+  top: 170px;
+  left: 76%;
+}
+.pic5 {
+  top: 560px;
+  left: 8%;
+}
+.pic6 {
+  top: 500px;
+  left: 34%;
+}
+.pic7 {
+  top: 600px;
+  left: 56%;
+}
+.pic8 {
+  top: 550px;
+  left: 78%;
+}
 
-.pic9  {top: 50px;  left: 4% ;}
-.pic10 {top: -80px; left: 28%;}
-.pic11 {top: 0px;  left: 52%;}
-.pic12 {top: 110px; left: 76%;}
-.pic13 {top: 520px; left: 6%;}
-.pic14 {top: 420px; left: 29%;}
-.pic15 {top: 540px; left: 54%;}
-.pic16 {top: 570px; left: 76%;}
-
+.pic9 {
+  top: 50px;
+  left: 4%;
+}
+.pic10 {
+  top: -80px;
+  left: 28%;
+}
+.pic11 {
+  top: 0px;
+  left: 52%;
+}
+.pic12 {
+  top: 110px;
+  left: 76%;
+}
+.pic13 {
+  top: 520px;
+  left: 6%;
+}
+.pic14 {
+  top: 420px;
+  left: 29%;
+}
+.pic15 {
+  top: 540px;
+  left: 54%;
+}
+.pic16 {
+  top: 570px;
+  left: 76%;
+}
 
 .redslash {
   width: 15px;
@@ -465,7 +509,7 @@ body {
   margin: -40px 30px 0 0;
   /*margin-right: 50px;*/
   transform: rotate(20deg);
-  background-color: #B61004;
+  background-color: #b61004;
   transition: 1s ease;
 }
 
@@ -478,17 +522,17 @@ body {
 
 h2 {
   font-size: 32px;
-  font-family:  T-StarPro-Medium;
+  font-family: T-StarPro-Medium;
 }
 
 h3 {
   font-size: 36px;
-  font-family:  T-StarPro-Medium;
+  font-family: T-StarPro-Medium;
 }
 
 p {
   font-size: 22px;
-  font-family:  T-StarPro;
+  font-family: T-StarPro;
   line-height: 29px;
   margin-top: 10px;
 }
@@ -526,23 +570,71 @@ p {
     height: 1500px;
   }
 
-  .pic1  {top: 100px;  left: 8% ;}
-  .pic2  {top: 30px;   left: 40%;}
-  .pic3  {top: 120px;  left: 72%;}
-  .pic4  {top: 580px;  left: 23%;}
-  .pic5  {top: 540px;  left: 56%;}
-  .pic6  {top: 950px;  left: 7%; }
-  .pic7  {top: 1100px; left: 39%;}
-  .pic8  {top: 975px;  left: 71%;}
+  .pic1 {
+    top: 100px;
+    left: 8%;
+  }
+  .pic2 {
+    top: 30px;
+    left: 40%;
+  }
+  .pic3 {
+    top: 120px;
+    left: 72%;
+  }
+  .pic4 {
+    top: 580px;
+    left: 23%;
+  }
+  .pic5 {
+    top: 540px;
+    left: 56%;
+  }
+  .pic6 {
+    top: 950px;
+    left: 7%;
+  }
+  .pic7 {
+    top: 1100px;
+    left: 39%;
+  }
+  .pic8 {
+    top: 975px;
+    left: 71%;
+  }
 
-  .pic9  {top: 100px;  left: 8% ;}
-  .pic10 {top: 30px;   left: 40%;}
-  .pic11 {top: 120px;  left: 72%;}
-  .pic12 {top: 520px;  left: 20%;}
-  .pic13 {top: 590px;  left: 56%;}
-  .pic14 {top: 950px;  left: 7%; }
-  .pic15 {top: 1100px; left: 39%;}
-  .pic16 {top: 1020px; left: 71%;}
+  .pic9 {
+    top: 100px;
+    left: 8%;
+  }
+  .pic10 {
+    top: 30px;
+    left: 40%;
+  }
+  .pic11 {
+    top: 120px;
+    left: 72%;
+  }
+  .pic12 {
+    top: 520px;
+    left: 20%;
+  }
+  .pic13 {
+    top: 590px;
+    left: 56%;
+  }
+  .pic14 {
+    top: 950px;
+    left: 7%;
+  }
+  .pic15 {
+    top: 1100px;
+    left: 39%;
+  }
+  .pic16 {
+    top: 1020px;
+    left: 71%;
+  }
 }
 
 @media (max-width: 1180px) {
@@ -565,8 +657,6 @@ p {
   .s1 {
     transform: scale(0.8);
   }
-
-
 
   h3 {
     font-size: 32px;
@@ -592,14 +682,14 @@ p {
     flex-direction: row;
 
     z-index: 9999999;
-    transition: .8s ease;
+    transition: 0.8s ease;
     cursor: default;
     text-decoration: underline;
   }
 
-  .comments>p {
+  .comments > p {
     font-size: 18px;
-    font-family:  T-StarPro;
+    font-family: T-StarPro;
   }
 
   p {
@@ -652,7 +742,7 @@ p {
     transform: scale(1);
   }
 
-/* PICTURE */
+  /* PICTURE */
 
   /* .bg {
     transform: scale(0.6);
@@ -664,7 +754,7 @@ p {
     margin: 0 0 48px 0;
   }
 
-/* CAPTION-TEXT */
+  /* CAPTION-TEXT */
 
   .figcaption {
     /* width: 321px; */
@@ -675,7 +765,6 @@ p {
 
     /* margin: 0 22px; */
   }
-
 
   .figcaption h1 {
     /* font-size: 32px; */
@@ -692,22 +781,19 @@ p {
     text-align: center;
 
     /* letter-spacing: .5px; */
-
   }
 
   .textWrapper {
     margin-bottom: 32px;
     /* margin-top: 104px; */
-
   }
 
-/* BUTTONS */
+  /* BUTTONS */
 
   .buttonsWrapper {
     width: 100%;
     margin-top: 0px;
     /* margin-bottom: 48px; */
-
 
     flex-direction: column;
     align-items: center;
@@ -747,26 +833,74 @@ p {
     font-size: 24px;
     line-height: 36px;
     margin-top: 24px;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
   }
 
-  .pic1  {top: 70px;   left: 11%;}
-  .pic2  {top: 100px;  left: 56%;}
-  .pic3  {top: 570px;  left: 16%;}
-  .pic4  {top: 520px;  left: 58%;}
-  .pic5  {top: 970px;  left: 11%;}
-  .pic6  {top: 920px;  left: 54%;}
-  .pic7  {top: 1450px; left: 14%;}
-  .pic8  {top: 1250px; left: 58%;}
+  .pic1 {
+    top: 70px;
+    left: 11%;
+  }
+  .pic2 {
+    top: 100px;
+    left: 56%;
+  }
+  .pic3 {
+    top: 570px;
+    left: 16%;
+  }
+  .pic4 {
+    top: 520px;
+    left: 58%;
+  }
+  .pic5 {
+    top: 970px;
+    left: 11%;
+  }
+  .pic6 {
+    top: 920px;
+    left: 54%;
+  }
+  .pic7 {
+    top: 1450px;
+    left: 14%;
+  }
+  .pic8 {
+    top: 1250px;
+    left: 58%;
+  }
 
-  .pic9  {top: 70px;   left: 11%;}
-  .pic10 {top: -60px;  left: 56%;}
-  .pic11 {top: 490px;  left: 14%;}
-  .pic12 {top: 360px;  left: 59%;}
-  .pic13 {top: 970px;  left: 11%;}
-  .pic14 {top: 840px;  left: 58%;}
-  .pic15 {top: 1450px; left: 14%;}
-  .pic16 {top: 1350px; left: 56%;}
+  .pic9 {
+    top: 70px;
+    left: 11%;
+  }
+  .pic10 {
+    top: -60px;
+    left: 56%;
+  }
+  .pic11 {
+    top: 490px;
+    left: 14%;
+  }
+  .pic12 {
+    top: 360px;
+    left: 59%;
+  }
+  .pic13 {
+    top: 970px;
+    left: 11%;
+  }
+  .pic14 {
+    top: 840px;
+    left: 58%;
+  }
+  .pic15 {
+    top: 1450px;
+    left: 14%;
+  }
+  .pic16 {
+    top: 1350px;
+    left: 56%;
+  }
 }
 
 @media (max-width: 667px) {
@@ -775,7 +909,22 @@ p {
     transform: scale(0.5);
   }
 
-  .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15, .pic16 {
+  .pic1,
+  .pic2,
+  .pic3,
+  .pic4,
+  .pic5,
+  .pic6,
+  .pic7,
+  .pic8,
+  .pic9,
+  .pic10,
+  .pic11,
+  .pic12,
+  .pic13,
+  .pic14,
+  .pic15,
+  .pic16 {
     top: 0;
     left: 0;
     margin: 20px auto;
@@ -786,7 +935,8 @@ p {
     justify-content: flex-start;
   }
 
-  .s2, .s4 {
+  .s2,
+  .s4 {
     height: 3200px;
     padding: 20px 0;
   }
@@ -801,7 +951,7 @@ p {
     font-size: 16px;
     line-height: 22px;
     margin-top: 24px;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
   }
 
   .s4 {
@@ -814,7 +964,6 @@ p {
 }
 
 @media (max-width: 414px) {
-
   /* MAIN */
 
   .s1 {
@@ -825,7 +974,7 @@ p {
     transform: scale(1);
   }
 
-/* PICTURE */
+  /* PICTURE */
 
   .bg {
     transform: scale(0.6);
@@ -837,7 +986,7 @@ p {
     margin: 0 0 48px 0;
   }
 
-/* CAPTION-TEXT */
+  /* CAPTION-TEXT */
 
   .figcaption {
     width: 321px;
@@ -848,7 +997,6 @@ p {
 
     /* margin: 0 22px; */
   }
-
 
   .figcaption h1 {
     font-size: 32px;
@@ -864,23 +1012,20 @@ p {
     line-height: 22px;
     text-align: center;
 
-    letter-spacing: .5px;
-
+    letter-spacing: 0.5px;
   }
 
   .textWrapper {
     margin-bottom: 32px;
     /* margin-top: 104px; */
-
   }
 
-/* BUTTONS */
+  /* BUTTONS */
 
   .buttonsWrapper {
     width: 100%;
     margin-top: 0px;
     /* margin-bottom: 48px; */
-
 
     flex-direction: column;
     align-items: center;
@@ -906,10 +1051,6 @@ p {
     text-decoration: none;
   }
 
-
-
-
-
   h1 {
     /*font-family: T-StarPro-Heavy;*/
     font-size: 42px;
@@ -930,7 +1071,6 @@ p {
     height: 180px;
   } */
 
-
   h3 {
     font-size: 24px;
     line-height: 30px;
@@ -944,5 +1084,4 @@ p {
   /* .footer {
     padding: 0 30px;
   } */
-
 }
