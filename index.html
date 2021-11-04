@@ -1,157 +1,306 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Randomatizm — рандомизируем супрематизм</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Randomatizm — randomize suprematism</title>
 
-  <meta name="description" content="Может ли искусство быть случайным?">
-  <meta name="keywords" content="art, suprematizm, random, randomatizm, malevich, design, avant-garde, hse, HSEDC2020">
+    <meta name="description" content="Could art be random?" />
 
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://randomatizm.hack.exchange">
-  <meta property="og:title" content="Randomatizm — рандомизируем супрематизм">
-  <meta property="og:description" content="Может ли искусство быть случайным?">
-  <meta property="og:image" content="http://randomatizm.hack.exchange/materials/share/share.png">
+    <meta
+      name="keywords"
+      content="art, suprematizm, random, randomatizm, malevich, design, avant-garde, hse, HSEDC2020"
+    />
 
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://randomatizm.art" />
+    <meta property="og:title" content="Randomatizm — randomize suprematizm" />
+    <meta property="og:description" content="Could art be random?" />
 
-  <link rel="stylesheet" href="stylesheets/prefixed/reset.css">
-  <link rel="stylesheet" href="stylesheets/prefixed/layout.css">
-  <link rel="stylesheet" href="stylesheets/prefixed/s1_bg.css">
-  <link rel="stylesheet" href="stylesheets/prefixed/footer.css">
-  <link rel="stylesheet" href="stylesheets/prefixed/index.css">
-  <link rel="stylesheet" href="stylesheets/prefixed/social-likes_horizontal.css">
+    <meta
+      property="og:image"
+      content="http://randomatizm.art/materials/share/share.png"
+    />
 
+    <link rel="stylesheet" href="stylesheets/prefixed/reset.css" />
+    <link rel="stylesheet" href="stylesheets/prefixed/layout.css" />
+    <link rel="stylesheet" href="stylesheets/prefixed/s1_bg.css" />
+    <link rel="stylesheet" href="stylesheets/prefixed/footer.css" />
+    <link rel="stylesheet" href="stylesheets/prefixed/index.css" />
 
+    <link
+      rel="stylesheet"
+      href="stylesheets/prefixed/social-likes_horizontal.css"
+    />
 
-  <link rel="shortcut icon"                          href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57"         href="materials/icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60"         href="materials/icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72"         href="materials/icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76"         href="materials/icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114"       href="materials/icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120"       href="materials/icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144"       href="materials/icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152"       href="materials/icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180"       href="materials/icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="materials/icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32"    href="materials/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96"    href="materials/icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16"    href="materials/icons/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <link rel="shortcut icon" href="favicon.ico" />
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="materials/icons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="materials/icons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="materials/icons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="materials/icons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="materials/icons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="materials/icons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="materials/icons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="materials/icons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="materials/icons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="materials/icons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="materials/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="materials/icons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="materials/icons/favicon-16x16.png"
+    />
 
-    ga('create', 'UA-66427703-7', 'auto');
-    ga('send', 'pageview');
-  </script>
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <script src="javascripts/jquery.js" charset="utf-8"></script>
-  <script src="javascripts/artwork.js" charset="utf-8"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-  <!-- <script src="javascripts/teletype.js" charset="utf-8"></script> -->
-  <!-- <script src="javascripts/scenario.js" charset="utf-8"></script> -->
-  <!-- <script src="javascripts/random_s1_bg.js" charset="utf-8"></script> -->
-  <script src="javascripts/social-likes.min.js"></script>
-</head>
-<body>
-  <section class="s1">
-    <section class="figcaption">
-      <section class="textWrapper">
-        <h1>RANDOMATIZM</h1>
-        <p>Нажмите кнопку, чтобы<br>рандомизировать картину.</p>
-      </section>
+      ga("create", "G-T11SC3JZ8L", "auto");
+      ga("send", "pageview");
+    </script>
 
-      <section class="buttonsWrapper">
-        <section class="buttonsRand">
-          <div class="randomize" id="randomize">РАНДОМ</div>
-
-          <div class="normalize original">к оригиналу</div>
+    <script src="javascripts/jquery.js" charset="utf-8"></script>
+    <script src="javascripts/artwork.js" charset="utf-8"></script>
+    <script src="javascripts/social-likes.min.js"></script>
+  </head>
+  <body>
+    <section class="s1">
+      <section class="figcaption">
+        <section class="textWrapper">
+          <h1>RANDOMATIZM</h1>
+          <p>Click to randomize the artwork</p>
         </section>
 
-        <!-- <section class="buttonsShare">
+        <section class="buttonsWrapper">
+          <section class="buttonsRand">
+            <div class="randomize" id="randomize">RANDOM</div>
+
+            <div class="normalize original">Back to original</div>
+          </section>
+
+          <!-- <section class="buttonsShare">
           <div class="social-likes">
             <div class="facebook" title="Поделиться ссылкой на Фейсбуке"></div>
             <div class="twitter" title="Поделиться ссылкой в Твиттере"></div>
             <div class="vkontakte" title="Поделиться ссылкой во Вконтакте"></div>
           </div>
         </section> -->
+        </section>
       </section>
 
-    </section>
-
-    <div class="bg">
-      <section class="figures" id="artwork" data-rotate="free" data-scale="large">
-        <div class="rectangle" id="f1"></div>
-        <div class="rectangle" id="f2"></div>
-        <div class="rectangle" id="f3"></div>
-        <div class="rectangle" id="f4"></div>
-        <div class="rectangle" id="f5"></div>
-        <div class="rectangle" id="f6"></div>
-        <div class="rectangle" id="f7"></div>
-        <div class="rectangle" id="f8"></div>
-        <div class="rectangle" id="f9"></div>
-      </section>
-    </div>
-  </section>
-
-  <section class="mainsection">
-    <section class="s3">
-      <div class="s3teaser">
-        Проект, в котором можно рандомизировать супрематические картины с помощью случайных чисел. Выберите картину, чтобы попробовать.
-      </div>
-
-      <a href="about.html" class="s3text">о проекте > </a>
-    </section>
-
-    <div class="picturesFlex">
-      <section class="s2" id="spic1">
-        <a href="artworks/artwork1.html" class="picture pic1"> <img class="preview" src="materials/preview/1.png" alt=""> <p class="title">«Живописный реализм футболиста»</p>                                <p class="teaser">Казимир Малевич, 1915.</p>  </a>
-        <a href="artworks/artwork2.html" class="picture pic2"> <img class="preview" src="materials/preview/2.png" alt=""> <p class="title">«Супрематизм. Конструкция»</p>                                     <p class="teaser">Иван Клюн, 1916.</p>        </a>
-        <a href="artworks/artwork3.html" class="picture pic3"> <img class="preview" src="materials/preview/3.png" alt=""> <p class="title">«Живописная архитектоника»</p>                                     <p class="teaser">Любовь Попова.</p>           </a>
-        <a href="artworks/artwork4.html" class="picture pic4"> <img class="preview" src="materials/preview/4.png" alt=""> <p class="title">«Супрематизм»</p>                                                  <p class="teaser">Казимир Малевич, 1915.</p>  </a>
-        <a href="artworks/artwork5.html" class="picture pic5"> <img class="preview" src="materials/preview/5.png" alt=""> <p class="title">«Композиция»</p>                                                   <p class="teaser">Иван Клюн, 1915.</p>        </a>
-        <a href="artworks/artwork6.html" class="picture pic6"> <img class="preview" src="materials/preview/6.png" alt=""> <p class="title">«Супрематизм»</p>                                                  <p class="teaser">Казимир Малевич, 1915.</p>  </a>
-        <a href="artworks/artwork7.html" class="picture pic7"> <img class="preview" src="materials/preview/7.png" alt=""> <p class="title">«Супрематическая живопись: летящий аэроплан»</p>                   <p class="teaser">Казимир Малевич, 1914.</p>  </a>
-        <a href="artworks/artwork8.html" class="picture pic8"> <img class="preview" src="materials/preview/8.png" alt=""> <p class="title">«Kestnermappe Proun, Rob. Levnis and Chapman GmbH Hannover #5»</p> <p class="teaser">Lazar El Lissitzky, 1924.</p></a>
-      </section>
-    </div>
-
-    <div class="picturesFlex">
-      <section class="s4" id="spic2">
-        <a href="artworks/artwork9.html" class="picture pic9">  <img class="preview" src="materials/preview/9.png" alt=""> <p class="title">«Композиция (Красное-Черное-Золотое)»</p>                                <p class="teaser">Любовь Попова, 1918</p></a>
-        <a href="artworks/artwork10.html" class="picture pic10"><img class="preview" src="materials/preview/10.png" alt=""><p class="title">«Автопортрет в&nbsp;двух измерениях»</p>                                 <p class="teaser">Казимир Малевич, 1915.</p></a>
-        <a href="artworks/artwork11.html" class="picture pic11"><img class="preview" src="materials/preview/11.png" alt=""><p class="title">«Без названия»</p>                                                       <p class="teaser">Надежда Удальцова, 1916.</p></a>
-        <a href="artworks/artwork12.html" class="picture pic12"><img class="preview" src="materials/preview/12.png" alt=""><p class="title">«Senza titolo»</p>                                                       <p class="teaser">Любовь Попова, 1921.</p></a>
-        <a href="artworks/artwork13.html" class="picture pic13"><img class="preview" src="materials/preview/13.png" alt=""><p class="title">«Супрематизм с&nbsp;синим треугольником и&nbsp;черным треугольником»</p> <p class="teaser">Казимир Малевич, 1915.</p></a>
-        <a href="artworks/artwork14.html" class="picture pic14"><img class="preview" src="materials/preview/14.png" alt=""><p class="title">«Супрематизм»</p>                                                        <p class="teaser">Николай Суетин, 1915.</p></a>
-        <a href="artworks/artwork15.html" class="picture pic15"><img class="preview" src="materials/preview/15.png" alt=""><p class="title">«Супрематизм»</p>                                                        <p class="teaser">Иван Клюн, 1915.</p></a>
-        <a href="artworks/artwork16.html" class="picture pic16"><img class="preview" src="materials/preview/16.png" alt=""><p class="title">«Живописная Архитектоника»</p>                                           <p class="teaser">Любовь Попова, 1916.</p></a>
-      </section>
-    </div>
-
-    <section class="s5">
-      <div class="social-likes">
-        <div class="facebook" title="Поделиться ссылкой на Фейсбуке"></div>
-        <div class="twitter" title="Поделиться ссылкой в Твиттере"></div>
-        <div class="vkontakte" title="Поделиться ссылкой во Вконтакте"></div>
-      </div>
-
-    </section>
-
-    <section class="footer">
-      <div class="">
-        © 2017-2018 Александр Московский, Захар День<br>
-        Школа дизайна НИУ ВШЭ, профиль «Дизайн и программирование»
+      <div class="bg">
+        <section
+          class="figures"
+          id="artwork"
+          data-rotate="free"
+          data-scale="large"
+        >
+          <div class="rectangle" id="f1"></div>
+          <div class="rectangle" id="f2"></div>
+          <div class="rectangle" id="f3"></div>
+          <div class="rectangle" id="f4"></div>
+          <div class="rectangle" id="f5"></div>
+          <div class="rectangle" id="f6"></div>
+          <div class="rectangle" id="f7"></div>
+          <div class="rectangle" id="f8"></div>
+          <div class="rectangle" id="f9"></div>
+        </section>
       </div>
     </section>
-  </section>
-</body>
+
+    <section class="mainsection">
+      <section class="s3">
+        <div class="s3teaser">
+          A project in which Suprematist paintings can be randomized using
+          random numbers. Choose a painting to try.
+        </div>
+
+        <!-- <a href="about.html" class="s3text">о проекте > </a> -->
+      </section>
+
+      <div class="picturesFlex">
+        <section class="s2" id="spic1">
+          <a href="artworks/artwork1.html" class="picture pic1">
+            <img class="preview" src="materials/preview/1.png" alt="" />
+            <p class="title">Painterly Realism of a Football Player</p>
+            <p class="teaser">Kazimir Malevich, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork2.html" class="picture pic2">
+            <img class="preview" src="materials/preview/2.png" alt="" />
+            <p class="title">Suprematism</p>
+            <p class="teaser">Ivan Kliun, 1916.</p>
+          </a>
+
+          <a href="artworks/artwork3.html" class="picture pic3">
+            <img class="preview" src="materials/preview/3.png" alt="" />
+            <p class="title">Painterly Architectonic</p>
+            <p class="teaser">Lyubov Popova.</p>
+          </a>
+
+          <a href="artworks/artwork4.html" class="picture pic4">
+            <img class="preview" src="materials/preview/4.png" alt="" />
+            <p class="title">Suprematism</p>
+            <p class="teaser">Kazimir Malevich, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork5.html" class="picture pic5">
+            <img class="preview" src="materials/preview/5.png" alt="" />
+            <p class="title">Composition</p>
+            <p class="teaser">Ivan Kliun, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork6.html" class="picture pic6">
+            <img class="preview" src="materials/preview/6.png" alt="" />
+            <p class="title">Suprematism</p>
+            <p class="teaser">Kazimir Malevich, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork7.html" class="picture pic7">
+            <img class="preview" src="materials/preview/7.png" alt="" />
+            <p class="title">Suprematist Composition: Airplane Flying</p>
+            <p class="teaser">Kazimir Malevich, 1914.</p>
+          </a>
+
+          <a href="artworks/artwork8.html" class="picture pic8">
+            <img class="preview" src="materials/preview/8.png" alt="" />
+            <p class="title">
+              «Kestnermappe Proun, Rob. Levnis and Chapman GmbH Hannover #5»
+            </p>
+            <p class="teaser">Lazar El Lissitzky, 1924.</p>
+          </a>
+        </section>
+      </div>
+
+      <div class="picturesFlex">
+        <section class="s4" id="spic2">
+          <a href="artworks/artwork9.html" class="picture pic9">
+            <img class="preview" src="materials/preview/9.png" alt="" />
+            <p class="title">Composition (Red-Black-Gold)»</p>
+            <p class="teaser">Lyubov Popova, 1918</p>
+          </a>
+
+          <a href="artworks/artwork10.html" class="picture pic10">
+            <img class="preview" src="materials/preview/10.png" alt="" />
+            <p class="title">Suprematism. Self Portrait in Two Dimensions</p>
+            <p class="teaser">Kazimir Malevich, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork11.html" class="picture pic11">
+            <img class="preview" src="materials/preview/11.png" alt="" />
+            <p class="title">Untitled</p>
+            <p class="teaser">Nadezhda Udaltsova, 1916.</p>
+          </a>
+
+          <a href="artworks/artwork12.html" class="picture pic12">
+            <img class="preview" src="materials/preview/12.png" alt="" />
+            <p class="title">«Senza titolo»</p>
+            <p class="teaser">Lyubov Popova, 1921.</p>
+          </a>
+
+          <a href="artworks/artwork13.html" class="picture pic13">
+            <img class="preview" src="materials/preview/13.png" alt="" />
+            <p class="title">Suprematism with Blue Triangle and Black Square</p>
+            <p class="teaser">Kazimir Malevich, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork14.html" class="picture pic14">
+            <img class="preview" src="materials/preview/14.png" alt="" />
+            <p class="title">Suprematism</p>
+            <p class="teaser">Nikolai Suetin, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork15.html" class="picture pic15">
+            <img class="preview" src="materials/preview/15.png" alt="" />
+            <p class="title">Suprematism</p>
+            <p class="teaser">Ivan Kliun, 1915.</p>
+          </a>
+
+          <a href="artworks/artwork16.html" class="picture pic16">
+            <img class="preview" src="materials/preview/16.png" alt="" />
+            <p class="title">Painterly Architectonic</p>
+            <p class="teaser">Lyubov Popova, 1916.</p>
+          </a>
+        </section>
+      </div>
+
+      <section class="footer">
+        <div>© 2017-2021 Zakhar Day, Alexander Moskovsky</div>
+      </section>
+    </section>
+  </body>
 </html>
