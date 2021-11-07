@@ -441,30 +441,37 @@ body {
   top: 70px;
   left: 6%;
 }
+
 .pic2 {
   top: 30px;
   left: 28%;
 }
+
 .pic3 {
   top: 120px;
   left: 54%;
 }
+
 .pic4 {
   top: 170px;
   left: 76%;
 }
+
 .pic5 {
   top: 560px;
   left: 8%;
 }
+
 .pic6 {
   top: 500px;
   left: 34%;
 }
+
 .pic7 {
   top: 600px;
   left: 56%;
 }
+
 .pic8 {
   top: 550px;
   left: 78%;
@@ -474,30 +481,37 @@ body {
   top: 50px;
   left: 4%;
 }
+
 .pic10 {
   top: -80px;
   left: 28%;
 }
+
 .pic11 {
   top: 0px;
   left: 52%;
 }
+
 .pic12 {
   top: 110px;
   left: 76%;
 }
+
 .pic13 {
   top: 520px;
   left: 6%;
 }
+
 .pic14 {
   top: 420px;
   left: 29%;
 }
+
 .pic15 {
   top: 540px;
   left: 54%;
 }
+
 .pic16 {
   top: 570px;
   left: 76%;
@@ -507,18 +521,10 @@ body {
   width: 15px;
   height: 350px;
   margin: -40px 30px 0 0;
-  /*margin-right: 50px;*/
   transform: rotate(20deg);
   background-color: #b61004;
   transition: 1s ease;
 }
-
-/* h1 {
-  font-size: 180px;
-  font-family:  T-StarPro-Bold;
-  display: none;
-  letter-spacing: 7px;
-} */
 
 h2 {
   font-size: 32px;
@@ -574,30 +580,37 @@ p {
     top: 100px;
     left: 8%;
   }
+
   .pic2 {
     top: 30px;
     left: 40%;
   }
+
   .pic3 {
     top: 120px;
     left: 72%;
   }
+
   .pic4 {
     top: 580px;
     left: 23%;
   }
+
   .pic5 {
     top: 540px;
     left: 56%;
   }
+
   .pic6 {
     top: 950px;
     left: 7%;
   }
+
   .pic7 {
     top: 1100px;
     left: 39%;
   }
+
   .pic8 {
     top: 975px;
     left: 71%;
@@ -607,30 +620,37 @@ p {
     top: 100px;
     left: 8%;
   }
+
   .pic10 {
     top: 30px;
     left: 40%;
   }
+
   .pic11 {
     top: 120px;
     left: 72%;
   }
+
   .pic12 {
     top: 520px;
     left: 20%;
   }
+
   .pic13 {
     top: 590px;
     left: 56%;
   }
+
   .pic14 {
     top: 950px;
     left: 7%;
   }
+
   .pic15 {
     top: 1100px;
     left: 39%;
   }
+
   .pic16 {
     top: 1020px;
     left: 71%;

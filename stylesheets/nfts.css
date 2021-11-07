@@ -1,0 +1,94 @@
+.mainSection {
+  width: 100vw;
+  background-color: white;
+}
+
+.mainSection h1 {
+  padding: 140px 50px 100px;
+  font-family: T-StarPro-Medium;
+  font-size: 36px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 48px;
+}
+
+.wall {
+  position: relative;
+  max-width: 1440px;
+  height: 6900px;
+}
+
+.painting {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.painting:hover {
+  transform: scale(1.08);
+  z-index: 99;
+}
+
+.painting img {
+  box-shadow: 0 5px 15px -5px #636363;
+}
+
+.painting .title {
+  margin: 14px 0 6px;
+  font-family: T-StarPro-Bold;
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.painting .minted {
+  font-family: T-StarPro;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+.footer {
+  position: static;
+}
+
+@media (max-width: 1280px) {
+  .wall {
+    height: 11700px;
+  }
+}
+
+@media (max-width: 995px) {
+  .wall {
+    height: 14200px;
+  }
+}
+
+@media (max-width: 700px) {
+  .mainSection h1 {
+    padding: 130px 30px 90px;
+    font-size: 42px;
+  }
+
+  .wall {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .painting {
+    position: static;
+    margin-bottom: 80px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
