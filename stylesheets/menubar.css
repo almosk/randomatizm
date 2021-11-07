@@ -14,7 +14,7 @@
 .menubar a {
   font-family: T-StarPro-Medium;
   font-size: 14px;
-  color: rgba(0,0,0,0.50);
+  color: rgba(0, 0, 0, 0.5);
   letter-spacing: 1px;
   line-height: 14px;
 }
@@ -42,8 +42,8 @@
   width: 20px;
   height: 20px;
   margin-top: -3px;
-  background-image: url(../materials/i.svg);
-  background-size: cover;
+  /* background-image: url(../materials/i.svg); */
+  /* background-size: cover; */
 }
 
 .menubarMobile {
@@ -67,5 +67,4 @@
     margin-top: 1px;
     height: 20px;
   }
-
 }

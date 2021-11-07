@@ -1142,8 +1142,8 @@ p {
   }
 
   .s3teaser {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   .s3text {
@@ -1280,7 +1280,7 @@ p {
 
   .s3 {
     /*height: 700px;*/
-    padding: 48px 30px;
+    padding: 88px 30px 0;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
