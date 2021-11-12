@@ -1,6 +1,8 @@
 .menubar {
   width: 100vw;
+  max-width: 1440px;
   height: 66px;
+  margin: 0 auto;
   position: fixed;
   top: 0;
   left: 0;

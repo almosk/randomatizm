@@ -1,5 +1,7 @@
 .mainSection {
   width: 100vw;
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: white;
 }
 
@@ -54,6 +56,9 @@
 
 .footer {
   position: static;
+  width: 100vw;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 @media (max-width: 1280px) {
